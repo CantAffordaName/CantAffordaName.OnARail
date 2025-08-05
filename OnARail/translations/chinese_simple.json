@@ -1,0 +1,444 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "DialogueDictionary": {
+      "<![CDATA[<color=lightblue>Enji</color>]]>: The train is nearly complete! All I have left to finish is the warp functionality.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：列车即将完成！只差增加跃迁功能了。",
+      "I have packed away the equipment I used to make the fuel at <![CDATA[<color=orange>Locomocean's refinery</color>]]> as I need the space for working on a new type of <![CDATA[<color=orange>Advanced Warp Core</color>]]>.": 
+      "我把制作燃料的设备留在<![CDATA[<color=orange>海驰星精炼厂</color>]]>了，我需要那里的空间来制作一种新型<![CDATA[<color=orange>高级跃迁核心</color>]]>.",
+      "This improved version will be using <![CDATA[<color=lightblue>Ghost Matter</color>]]> as opposed to singularities. Hypothetically, this new design will allow for <![CDATA[<i>significant</i>]]> jumps through space while also being able to keep the planets in tow! Not only that, the amount of time it takes to recharge after each jump is ten times faster than our current warp tech!": 
+      "升级过的版本会利用<![CDATA[<color=lightblue>幽灵物质</color>]]>而不是黑洞，理论上来说，这种新型设计可以允许在保持星球队列的前提下进行<![CDATA[<i>十分遥远</i>]]>的星际跃迁！不仅如此，每次跃迁后再次充能的速度也比目前的跃迁科技快十倍！",
+      "My two week deadline is fast approaching. The <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> on <![CDATA[<color=orange>Spruce Caboose</color>]]> has bought me enough time to get everything done without interference from my clan! Time to get back to work.": 
+      "我的两个星期的截止时间快到了。<![CDATA[<color=orange>杉尾星</color>]]>上的<![CDATA[<color=orange>单向信号阻断器</color>]]>为我赢得了足够的时间不受我的家族干扰！是时候回到工作了。",
+      "<![CDATA[<color=orange>Update</color>]]>: I'm still on schedule for finishing the new <![CDATA[<color=orange>Advanced Warp Core</color>]]>, but there's just one... <![CDATA[<i>\"catch\"</i>]]>, to put it bluntly.": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：<![CDATA[<color=orange>高级跃迁核心</color>]]>的制作还在按计划进行，但遇到了一个……<![CDATA[<i>小困难</i>]]>，简单来说。",
+      "The warp pad I had been using to get into <![CDATA[<color=orange>Locomocean's refinery</color>]]> fell into the water after the island it was built upon collapsed.": 
+      "我一直用来进入<![CDATA[<color=orange>海驰星精炼厂</color>]]>的跃迁点所在的小岛坍塌了，跃迁点掉进了水里。",
+      "Now unlike that warp core I lost and substituted, I actually need this one to get inside. I don't have time to dig my way back in and risk destroying my work!": 
+      "和那个我弄丢又设法替代的跃迁核心不同，这次我确实需要这个跃迁点来进到里面。我没时间冒着破坏自己成果的风险挖地道进去！",
+      "So I got a little remote drone and went searching for the core when I noticed something strange about one of the <![CDATA[<color=orange>anglerfish</color>]]>: It's <![CDATA[<color=orange>lure</color>]]> was <![CDATA[<color=orange>completely dark</color>]]>.": 
+      "所以我用了一个遥控无人机去寻找核心，发现有一条<![CDATA[<color=orange>安康鱼</color>]]>有点奇怪——它的<![CDATA[<color=orange>诱饵</color>]]>是<![CDATA[<color=orange>完全暗淡的</color>]]>.",
+      "All of a sudden, the remote drone ended up inside the <![CDATA[<color=orange>refinery</color>]]>! The <![CDATA[<color=orange>anglerfish</color>]]> must have mistaken the warp core for food!": 
+      "突然间，无人机到了<![CDATA[<color=orange>精炼厂</color>]]>里面！那条<![CDATA[<color=orange>安康鱼</color>]]>一定是把跃迁核心当作食物了！",
+      "When I went to go retrieve the remote drone, I couldn't seem to find the right <![CDATA[<color=orange>anglerfish</color>]]>. On further inspection, it would seem that the darkened lure isn't visible (even to the third eye). I can only see it with the remote drone's <![CDATA[<color=orange>camera</color>]]>.": 
+      "去拿回无人机的时候，我没法找到那条<![CDATA[<color=orange>安康鱼</color>]]>。进一步观察表明，变暗的诱饵无法被肉眼所见（第三只眼也不行）。我只能用无人机的<![CDATA[<color=orange>摄像头</color>]]>观察到它。",
+      "...And somehow an <![CDATA[<color=orange>anglerfish</color>]]> is a perfect conduit for warp pads. I... don't know what to make of this information.": 
+      "……<![CDATA[<color=orange>安康鱼</color>]]>竟然能完美构成跃迁点的管线。我……不知道对这个发现作何感想。",
+      "Despite that minor setback (and the fact that the entrance to <![CDATA[<color=orange>Locomocean's refinery</color>]]> is now absolutely disgusting), I should still have enough time to finish everything before my clan finds me!": 
+      "尽管遇到了小挫折（而且现在前往<![CDATA[<color=orange>海驰星精炼厂</color>]]>的方法实在令人厌恶），我应该还是能在被家族发现前完成一切！",
+      
+      "Running System: <![CDATA[<color=orange>One-Way Signal Blocker</color>]]>": 
+      "正在运行系统：<![CDATA[<color=orange>单向信号阻断器</color>]]>",
+      "<![CDATA[<color=red>Notice</color>]]>: Your <![CDATA[<color=orange>Gnomai</color>]]> Distro is outdated. Certain functions may be unavailible, such as the remote access of coordinates.": 
+      "<![CDATA[<color=red>通知</color>]]>：<![CDATA[<color=orange>挪麦</color>]]>套件已过时。部分功能可能不可用，如远程获取坐标等。",
+      "Approximate transmission coordinates may still be retrieved on-site at the <![CDATA[<color=orange>Coordinate Relay</color>]]>.": 
+      "大致传输坐标仍可从<![CDATA[<color=orange>坐标中继器</color>]]>现场获取。",
+      "<![CDATA[<color=red>ERROR</color>]]>: Scheduled automatic cessation of <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> following user inputed time of <![CDATA[<color=yellow>three weeks</color>]]> has failed. Please contact your system administrator.": 
+      "<![CDATA[<color=red>错误</color>]]>：根据用户输入时间（<![CDATA[<color=yellow>三个星期</color>]]>）预约的<![CDATA[<color=orange>单向信号阻断器</color>]]>自动终止程序已失败。请联系系统管理员。",
+      
+      "<![CDATA[<color=orange>Enji's Presentation: Systems on Rails</color>]]>": 
+      "<![CDATA[<color=orange>恩吉的提案: 车轨上的星系</color>]]>",
+      "For a long time, Nomai Clans have been using <![CDATA[<color=orange>vessels</color>]]> to explore the universe.": 
+      "长久以来，诺麦家族一直使用<![CDATA[<color=orange>飞船</color>]]>探索宇宙。",
+      "Every ten years, festivals happen where everyone gathers to share knowledge to learn a whole bunch of different things!": 
+      "每隔十年，大家会聚在一起举办发现节，分享知识、学习各种不同的事物！",
+      "...But there hasn't been a lot of transportation innovation since we all use warp cores to move around.": 
+      "……但由于我们全都使用跃迁核心作为移动方式，交通方面的创新发明屈指可数。",
+      "Our <![CDATA[<color=orange>vessel</color>]]> is nice and comfy, but I like it when I get to explore the planets we visit! I get bored of seeing the same white and silver colors and not the weird and wacky organic stuff!": 
+      "我们的<![CDATA[<color=orange>飞船</color>]]>确实干净舒适，但我更喜欢探索我们拜访的星球！我看腻了千篇一律的银白色，还是稀奇古怪的有机色彩更有意思！",
+      "So here's my idea: <![CDATA[<color=orange>make a space train</color>]]>! It has all the stuff the vessel has, but we get to have home planets in tow!": 
+      "因此我有一个想法：<![CDATA[<color=orange>造一辆太空列车</color>]]>！它有飞船拥有的一切，还能牵着我们的母星一起走！",
+      "And we could pick up more planets, or swap them out, anything really! It would be efficient!": 
+      "我们还能带上更多的星球，或者把它们换掉，什么都可以！非常方便快捷！",
+      "So... what do you guys think? Cool idea, right?": 
+      "所以……大家觉得如何？很棒的想法，对吧？",
+      "...Guys?": "……大家？",
+
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I have prepared the socket for the new <![CDATA[<color=orange>Advanced Warp Core</color>]]> here in the engine room.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：新的<![CDATA[<color=orange>高级跃迁核心</color>]]>的插入口已经在引擎室内准备好了。",
+      "Once it's finished I'll be ready to take the train on its inaugural warp back to my clan!": 
+      "一旦完工，我就能带我的火车进行首次跃迁，回到我的家族了！",
+      "After placing the <![CDATA[<color=orange>Advanced Warp Core</color>]]>, the <![CDATA[<color=orange>Coordinate Interface</color>]]> will rise up from the floor. All I need to do is enter the correct coordinates from the <![CDATA[<color=orange>Coordinate Relay</color>]]> and we're off!": 
+      "插入<![CDATA[<color=orange>高级跃迁核心</color>]]>后，<![CDATA[<color=orange>坐标输入界面</color>]]>会从地面升起。只要输入从<![CDATA[<color=orange>坐标中继器</color>]]>获取的坐标，我们就能出发了！",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: ...": "<![CDATA[<color=lightblue>恩吉</color>]]>：……",
+      "My two weeks were almost up. In a rash attempt to get the new <![CDATA[<color=orange>Advanced Warp Core</color>]]> done as quickly as possible, I took minimal precautions.": 
+      "我的两个星期快结束了。为了尽快完成<![CDATA[<color=orange>高级跃迁核心</color>]]>，我草率行事了，没有做好防护。",
+      "I know I'm supposed to follow safety procedures. I know how to properly handle <![CDATA[<color=lightblue>Ghost Matter</color>]]>. I even learned how to become temporarily immune to it.": 
+      "我知道我理应采取安全措施。我知道如何正确处理<![CDATA[<color=lightblue>幽灵物质</color>]]>。我甚至学会了如何对它暂时免疫。",
+      "...But what good does that information do for me when my arm's pinned down?": 
+      "……但当我的手臂被钉在地上，这些知识又有什么用呢？",
+      "An explosion occurred while trying to channel the power into the core. I'm unable to pull it out on my own. My clan will have to find me. I was never against the idea of cooperation. I just needed some time alone.": 
+      "尝试将能量引入核心时发生了爆炸。我无法自己将它拔出。只能等我的家族找到我了。我从来不抵触合作。我只是想自己待一会儿。",
+      "The <![CDATA[<color=orange>Signal Blocker</color>]]> should stop in a few days like I've prompted it to. Good thing I had the foresight to set that up for emergencies like this.": 
+      "<![CDATA[<color=orange>信号阻断器</color>]]>应该几天后就关闭了，就像我提前设置的那样。还好我有先见之明，为这样的紧急情况做了准备。",
+      "Just have to wait. I can last a little while. The pain will make it feel like eternity, though. Perhaps I can twiddle my non-pinned limbs to pass the time, or at the very least take my mind off it.": 
+      "只需要等待。我能坚持一段时间。虽然疼痛会让时间无比漫长。也许我能摆弄我没被钉住的手脚来消磨时间，或者至少让我转移注意力。",
+      "...": "……",
+      "It's been a couple of days. Arm still hurts. Still can't get it unstuck. But I'm being proactive regardless!": 
+      "已经过了几天了。手臂还是很痛。还是没法将它松开。但我仍在努力坚持！",
+      "I've used my <![CDATA[<color=orange>remote drone</color>]]> to retrieve equipment and supplies. It can't carry much since it's main use is for scouting, but I have nothing but time to spare.": 
+      "我用我的<![CDATA[<color=orange>遥控无人机</color>]]>运送设备和补给。它的主要用途是探测，因此无法一次运输太多东西，但我最不缺的就是时间。",
+      "Surely the <![CDATA[<color=orange>Signal Blocker</color>]]> has stopped by now.": 
+      "现在<![CDATA[<color=orange>信号阻断器</color>]]>肯定关闭了吧。",
+      "It <![CDATA[<i>has</i>]]> to have been at least a week now. They must've heard the signal by now, they must have!": 
+      "到现在<![CDATA[<i>绝对</i>]]>至少过去一星期了。他们现在一定已经收到信号了，一定是的！",
+      "I can't gather any more supplies. My <![CDATA[<color=orange>remote drone</color>]]> got chewed on by an <![CDATA[<color=orange>anglerfish</color>]]>. If only I was able to catch one to chew on in revenge.": 
+      "我没法获取更多补给了。我的<![CDATA[<color=orange>无人机</color>]]>被一条<![CDATA[<color=orange>安康鱼</color>]]>咬坏了。真想能抓一条鱼咬回去报仇。",
+      "Would it be disgusting? Most definitely. Wouldn't even be able to roast it. But it is starting to become more appealing by the second. And the constant groans they make are only making things worse.": 
+      "会不会很恶心？很可能会，我甚至没法把它烤一下。但这个想法的诱惑每分每秒都在增加，更别提他们动不动就发出声音刺激我。",
+      "I do not know how long it has been. I can't see the sun and I have no means with which to gauge the time.": 
+      "我不知道已经过去多久了。我看不到太阳，也没有任何办法测量时间。",
+      "What I do know is this: <![CDATA[<color=orange>my clan isn't coming for me</color>]]>.": 
+      "但我知道：<![CDATA[<color=orange>我的家族不会来了</color>]]>。",
+      "The supplies I accrued are dwindling, even after rationing them. The salt water I've been using to keep the <![CDATA[<color=lightblue>Ghost Matter</color>]]> at bay with is beginning to run out. At this rate I'll have to start using my drinking water instead.": 
+      "我囤下的补给即将耗尽，即使节省使用也不行。防止<![CDATA[<color=lightblue>幽灵物质</color>]]>扩散的海水快用完了。照这样下去，我只能用饮用水替代了。",
+      "...I'm not sure whether the <![CDATA[<color=lightblue>Ghost Matter</color>]]> will kill me first by dehydrating me or ironically by quenching my thirst.": 
+      "不知道<![CDATA[<color=lightblue>幽灵物质</color>]]>会让我脱水而死，还是解渴而死。",
+      "I have begun considering removing my arm. I do not have proper medical equipment; I only have what I used to mine for resources on <![CDATA[<color=orange>Spruce Caboose</color>]]>. I can't exactly chisel myself out without injury.": 
+      "我开始考虑截断我的手臂。我没有专业的医疗设备，只有曾经用来在<![CDATA[<color=orange>杉尾星</color>]]>上采矿的工具。我没法在不受伤的情况下把自己开凿出来。",
+      "I cannot ascertain whether it'd be better to wither away in here or suffer complications from the amputation. Neither sound like promising options.": 
+      "我无法决定哪种情况更好，在这里慢慢死去，还是受截肢后并发症的折磨。两者听上去都不理想。",
+      "...The decision has been made. I can't bring myself to do it.": 
+      "……我决定了。我下不了手。",
+      "I just wanted to be useful...": 
+      "我只是想帮上忙……",
+      "I just wanted to make a significant contribution...": 
+      "我只是想做出重大贡献……",
+      "I just wanted to build a train...": 
+      "我只是想造一辆火车……",
+      "...Perhaps everyone knew along and I simply refused to see. Maybe trying to put a system on rails was an idea doomed from the start.": 
+      "……也许大家从一开始就知道，而我拒绝承认。也许把星系放上车轨的想法从一开始就注定无法实现。",
+      "<![CDATA[<i>Hypothesis... confirmed.</i>]]>": "<![CDATA[<i>假设……成立。</i>]]>",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I finally have the opportunity to be on my own. I've been planning to do this for a while now, I just needed to wait for the right conditions.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：我终于有机会独自一人了。为了这件事我已经计划了很久，只是在等待合适的时机。",
+      "Ever since my younger days when no one appreciated my dreams of space trains being the next big thing for Nomai-kind, I've been planning to get away from my clan to build it all myself.": 
+      "我年轻时的梦想是让太空列车成为挪麦文明的划时代发明，但无人认可。从那时起，我就计划远离我的家族，独自一人完成建造。",
+      "I knew it could be done. I simply needed planets that were small enough with at least one of them containing <![CDATA[<color=lightblue>Ghost Matter</color>]]> for use as an energy source.": 
+      "我知道这可行。我只需要一些足够小的星球，其中至少一个含有<![CDATA[<color=lightblue>幽灵物质</color>]]>作为能量来源。",
+      "After identifying this particular system for meeting my specifications, I quietly hijacked one of the escape pods from my <![CDATA[<color=orange>vessel</color>]]> and managed to leave undetected.": 
+      "确认这个星系符合我的要求后，我悄悄操控<![CDATA[<color=orange>飞船</color>]]>的一个逃生舱离开了，没有被人察觉。",
+      "To prevent my clan from finding and stopping me before I finish construction, I've set up this <![CDATA[<color=orange>One-Way Signal Blocker</color>]]>. It will make it harder for them to track me down and it'll still let me get back to them once I finish the train's warp functionality.": 
+      "为了防止我的家族在我完成建造前发现并阻止我，我安装了这个<![CDATA[<color=orange>单向信号阻断器</color>]]>。这会让他们更难追踪到我，但仍允许我在完成列车的跃迁功能后回到他们身边。",
+      "But it won't stop them from looking for me. I've covered my tracks as best I could and cleared the crash site. Two uninterrupted weeks is all I ask.": 
+      "不过这不能阻止他们寻找我。我已经尽量掩饰了自己的踪迹，也清理了迫降现场。我只想要有两周时间不被打扰。",
+      "Every time I ever brought up the fact that \"<![CDATA[<i>I like trains</i>]]>\" the others would groan like they'd heard it a thousand times before!\r\n(...I suppose they have. From me.)": 
+      "每次只要我提到“<![CDATA[<i>我喜欢火车</i>]]>”，其他人就会抱怨，好像他们已经听了千百遍似的……\r\n（……也许他们确实听了那么多遍。从我这里。）",
+      "...But no one wanted to assist me, or at the very least supervise me! They'd come up with excuses like \"<![CDATA[<i>It'd be dangerous to experiment with Ghost Matter</i>]]>\" or \"<![CDATA[<i>What about preserving the planets for potential future species?</i>]]>\" There's no way we've made so many technical advancements without incurring <![CDATA[<i>some</i>]]> amount of risk.": 
+      "……但没有人愿意协助我，哪怕是监督指导我！他们总找借口，比如“<![CDATA[<i>用幽灵物质实验很危险</i>]]>”或者“<![CDATA[<i>那怎么为未来可能出现的物种保存星球呢？</i>]]>”我们实现了那么多科技进步，不可能不承受一定程度的风险。",
+      "Please let this buy me enough time.": "拜托这次让我有足够的时间。",
+
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I've finally cleaned up the crash site. Of all the places in the universe to wind up, this is an idyllic spot.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：我终于完成了迫降现场的清理。在茫茫宇宙中，能来到这个宁静优美的地方，真是难得。",
+      "With that said, I'm surprised that Nomai tech was <![CDATA[<i>already</i>]]> here before I showed up. Well, maybe not. Our clans are everywhere.": 
+      "话虽如此，我非常惊讶这里在我抵达前<![CDATA[<i>已经</i>]]>有挪麦科技了。好吧，也许也不算惊讶。挪麦家族们遍布宇宙各处。",
+      "I was worried that someone might show up and start asking questions, but it would seem that no one's around this particular star.": 
+      "我担心可能有人突然过来问这问那，但看起来这颗恒星附近空无一人。",
+      "Upon further inspection, there seems to be a <![CDATA[<color=orange>derelict vessel</color>]]> in the distance... Did something happen to this particular clan?": 
+      "根据进一步观察，远处似乎有一艘<![CDATA[<color=orange>废弃飞船</color>]]>……这个家族发生什么了吗？",
+      "Surely we would have heard about something like that. It's not every day a clan chooses to abandon a <![CDATA[<color=orange>vessel</color>]]>.": 
+      "这样的事我们一定会得到消息。家族丢弃<![CDATA[<color=orange>飞船</color>]]>是非常少见的事。",
+      "...Well, perhaps <![CDATA[<i>I</i>]]> might relate to that last bit.": 
+      "……也许<![CDATA[<i>我</i>]]>能理解这么做的理由。",
+      "Anyways, I've covered my tracks to the best of my ability. For now I'll rest and in the morning my project begins.": 
+      "总而言之，我已经尽力遮掩了自己的行踪。现在该休息了，明天一早就开始我的计划。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: Alright... Everything has been building up to this moment.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：好了……所有一切都是为这一刻而准备的。",
+      "Preparing to launch in 3... 2... 1...": "准备出发，3……2……1……",
+      "All systems are online! The engine has started!": "所有系统上线！引擎已经启动！",
+      "Full steam ahead!": "全速前进！",
+      "I've secured a stable orbit around this local system's star. Now comes the challenging part.": "我已为列车选定了本星系恒星周围的一个稳定轨道。现在来到最具挑战性的部分。",
+      "Yes. <![CDATA[<i>YES!</i>]]> I've done it! All of the planets are now following the train's orbit!": "太好了。<![CDATA[<i>太好了！</i>]]>我成功了！所有行星都在跟随列车轨道移动！",
+      "I have successfully put a <![CDATA[<color=orange>system on rails</color>]]>! I knew it could be done!": "我成功构建了一个<![CDATA[<color=orange>车轨上的星系</color>]]>！我就知道这能实现！",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I've gathered enough <![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals here on <![CDATA[<color=orange>Frost Car</color>]]>. I've also managed to finally get my hands on one of the larger crystals from the <![CDATA[<color=orange>core</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：我已经在<![CDATA[<color=orange>霜车星</color>]]>这里收集了足够多的<![CDATA[<color=lightblue>幽灵物质</color>]]>，并且终于成功采集了一块<![CDATA[<color=orange>核心</color>]]>中更大的水晶。",
+      "The smaller crystals are being refined on <![CDATA[<color=orange>Locomocean</color>]]> and will be used as the main source of power for the train. Honestly, everyone saying that <![CDATA[<color=lightblue>Ghost Matter</color>]]> can be an <![CDATA[<i>extremely volatile</i>]]> substance hasn't really seemed to consider the industrial applications of the stuff.": 
+      "小块水晶正在<![CDATA[<color=orange>海驰星</color>]]>中进行精炼，它们将作为火车的主要能量来源。老实说，每个声称<![CDATA[<color=lightblue>幽灵物质</color>]]>是一种<![CDATA[<i>极不稳定</i>]]>的物质的人都没有考虑过它的工业应用。",
+      "The larger crystal is also being taken to <![CDATA[<color=orange>Locomocean</color>]]>, but it will instead be used for a new <![CDATA[<color=orange>Advanced Warp Core</color>]]> I have been designing to surpass our current warp technology.": 
+      "那块大水晶也将运往<![CDATA[<color=orange>海驰星</color>]]>，但它将用于制作我设计的新型<![CDATA[<color=orange>高级跃迁核心</color>]]>，它比我们目前的跃迁科技更加先进。",
+      "I find it strange that we have been using the same old tech for thousands of years. It's as old as the tales of <![CDATA[<color=orange>Escall's Clan</color>]]>.": 
+      "我认为我们千百年来一直使用同一种老旧的科技非常奇怪。它和<![CDATA[<color=orange>艾斯科尔家族</color>]]>的传说一样古老。",
+      "I wonder what <![CDATA[<color=orange>Annona</color>]]> would think of my design...": "不知道<![CDATA[<color=orange>安诺纳</color>]]>会如何评价我的设计……",
+
+      "As I don't want to jeopardize my success by falling to my death, I've decided to block off entry to the core.": 
+      "我不想因坠亡而妨害自己的成功，因此决定封堵通往核心的入口。",
+      "I won't be needing to go back down, but I will eventually need to come back here for the smaller crystals. Entropy and all that it entails, you know how it is.": 
+      "我不需要再下去了，但我最终需要回来处理小块水晶。熵增什么的，你懂的。",
+      "<![CDATA[<color=orange>Update</color>]]>: I had to go back... I needed an even bigger crystal. For future reference, <![CDATA[<color=orange>the first turn after entering</color>]]> the ice tunnels leads directly to the <![CDATA[<color=orange>core</color>]]>. Come to think of it, the tunnels blocked by <![CDATA[<color=lightblue>Ghost Matter</color>]]> seem to be the most direct route to it.": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：我必须回去……我需要一颗更大的水晶。供日后参考：从冰下隧道<![CDATA[<color=orange>进入后的第一个转弯</color>]]>可以直达<![CDATA[<color=orange>核心</color>]]>。仔细想来，被<![CDATA[<color=lightblue>幽灵物质</color>]]>封堵的隧道似乎是最直接的路径。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: Well... Isn't <![CDATA[<i>this</i>]]> something I wish I had known earlier!": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：看看……要是我早知道<![CDATA[<i>这个</i>]]>就好了！",
+      "I was just mining this pillar for resources to build the train when I discovered that there was an aquifer right above me.": 
+      "刚才我正在挖掘这根石柱收集建造火车的材料，突然发现我的正上方是含水层。",
+      "...And, of course, shortly thereafter the entire upper portion of the pillar broke! I was unharmed, but a little shaken being pushed around by the ensuing flood.": 
+      "……于是，自然而然地，很快石柱的整个上半部分就崩塌了！我没有受伤，但被接踵而至的水浪卷起，有些受惊。",
+      "After coming to my senses, I realized I was standing in patch of <![CDATA[<color=lightblue>Ghost Matter</color>]]>! ...But I wasn't writhing in burning agony?": 
+      "镇定下来后，我发现自己身处<![CDATA[<color=lightblue>幽灵物质</color>]]>之中！……但我并未因灼烧的痛苦而扭曲？",
+      "Not too long after being bewildered by this, it <![CDATA[<i>very much started to burn</i>]]>, as most come to expect. But why did it take so long to start hurting me?": 
+      "困惑了没多久，<![CDATA[<i>灼烧的感觉出现了</i>]]>，正如我所料。但它为什么这么久后才对我造成伤害？",
+      "It seems I have accidentally discovered a means to achieve temporary immunity to the effects of <![CDATA[<color=lightblue>Ghost Matter</color>]]>. By being completely drenched with water, I can freely touch it without worry.": 
+      "我似乎发现了一种能暂时对<![CDATA[<color=lightblue>幽灵物质</color>]]>免疫的方法。通过将身体在水中浸湿，我能毫无顾虑地接触<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "Frankly, I'm still going to be anxious standing in a cloud of <![CDATA[<color=lightblue>Ghost Matter</color>]]> considering all that's between me and certain death is soggy garments.": 
+      "老实说，我还是对站在一团<![CDATA[<color=lightblue>幽灵物质</color>]]>中感到担心，毕竟我离死亡只隔了一层湿透的衣物。",
+      "Further testing shows that I have about <![CDATA[<color=orange>one minute</color>]]> after climbing out of water to use my newfound invincibility before I dry off.": 
+      "进一步试验表明，在离开水后、身体干燥之前，我有大约<![CDATA[<color=orange>一分钟</color>]]>的时间可以使用我新发现的特殊能力。",
+      "<![CDATA[<color=orange>Update</color>]]>: I have reminded myself the hard way that <![CDATA[<color=orange>water vaporizes quickly</color>]]> in the vacuum of space. Ouch.": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：我以惨痛的教训提醒了自己：在宇宙的真空中，<![CDATA[<color=orange>水蒸发极快</color>]]>。好痛。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: An update on the current situation. I... just lost a warp core.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：最新情况进展汇报。我……刚刚丢失了一个跃迁核心。",
+      "I'm in the process of sealing off <![CDATA[<color=orange>Locomocean's refinery</color>]]> and I brought one of the <![CDATA[<color=orange>white hole</color>]]> cores by leaping to the planet. I hit a patch of land. On an ocean planet. Not quite the <![CDATA[<i>splash</i>]]> I was hoping to make (Ha ha. I'm in pain).": 
+      "我正在封锁<![CDATA[<color=orange>海驰星精炼厂</color>]]>，并且通过星球间跳跃带来了一个<![CDATA[<color=orange>白洞</color>]]>核心。我撞到了一块陆地。在一颗海洋星球上。不是我想象中的<![CDATA[<i>啪唧</i>]]>声（哈哈。我好痛）。",
+      "Now, I didn't break anything... I think. But I lost grip of the <![CDATA[<color=orange>core</color>]]> and I'm not about to go back to swimming with the fishies to find it, nor can I spare the time to. I'll grab another to use instead.": 
+      "我没有损坏任何东西……应该吧。但我松开了手里握着的<![CDATA[<color=orange>核心</color>]]>。我可不想为了找它和那些鱼一起游泳，也没有时间去找。我会再拿一个来用。",
+      "If I had to guess where it was? Based on the ocean current, probably the <![CDATA[<color=orange>South Pole</color>]]>. But I'm not about to go digging in the sand because <![CDATA[<color=lightblue>A)</color>]]> I hate sand, <![CDATA[<color=lightblue>B)</color>]]> I hate the fish, and <![CDATA[<color=lightblue>C)</color>]]> I don't have time for that.": 
+      "假如让我猜它在哪里？根据洋流，大概在星球<![CDATA[<color=orange>南极</color>]]>。但我不会去挖沙子，因为<![CDATA[<color=lightblue>第一</color>]]>我讨厌沙子，<![CDATA[<color=lightblue>第二</color>]]>我讨厌鱼，<![CDATA[<color=lightblue>第三</color>]]>我没有时间。",
+      "I'm fortunate enough that I didn't end up losing the <![CDATA[<color=orange>black hole</color>]]> warp core instead. What a pain that would be!": 
+      "还好我足够幸运，没有弄丢<![CDATA[<color=orange>黑洞</color>]]>核心。那样就糟糕了！",
+      "<![CDATA[<color=orange>Update</color>]]>: It would seem that The Universe has it out for me. Me and my big mouth.": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：看来宇宙早就为我准备好了。我这大嘴巴。",
+      "Wait, I'm not talking, I'm writing. Me and my... big hands? No, that sounds dumb.": "等等，我不是在说话，我是在书写。我这……大手？不不，听上去太蠢了。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: At long last, my work has come to fruition!": "<![CDATA[<color=lightblue>恩吉</color>]]>：终于，我的工作取得了成果！",
+      "There are a two things I need to take care of before it's truly complete:": "在彻底完工前，我还需要做两件事：",
+      "1) I need to finish my work on the <![CDATA[<i>immense</i>]]> source of power for warp functionality. I'm going to prepare this at <![CDATA[<color=orange>Locomocean's Refinery</color>]]>.": 
+      "一、我需要准备跃迁功能所需的<![CDATA[<i>极大的</i>]]>能源。我会去<![CDATA[<color=orange>海驰星精炼厂</color>]]>完成这项工作。",
+      "2) The coordinates leading back to my clan's <![CDATA[<color=orange>Vessel</color>]]> need to be updated to their current position. I'll simply drop by the <![CDATA[<color=orange>Spruce Caboose</color>]]> to find out where my clan is after I prepare the warp.": 
+      "二、我需要将指向我家族<![CDATA[<color=orange>飞船</color>]]>的坐标更新到他们目前的位置。跃迁准备完毕后，我会顺路去<![CDATA[<color=orange>杉尾星</color>]]>查看我的家族现在在哪里。",
+      "My two weeks are almost up. I can't wait to see the looks on their faces when I show them what I've accomplished here!": 
+      "我的两个星期即将结束。我已经迫不及待了，不知道当我展示这一切时，他们脸上会是什么表情！",
+      
+      "<![CDATA[<color=red>WARNING</color>]]>: A fuel leak has been detected in the <![CDATA[<color=orange>main corridor</color>]]>.": 
+      "<![CDATA[<color=red>警告</color>]]>：<![CDATA[<color=orange>主通道</color>]]>内检测到燃料泄漏。",
+      "<![CDATA[Running System Diagnostics:\r\n<![CDATA[<color=orange>Fuel Reserves</color>]]>: 98%\r\n<![CDATA[<color=orange>Structural Integrity</color>]]>: 99.98%\r\n<![CDATA[<color=orange>Engine Status</color>]]>: Fully operational": 
+      "<![CDATA[正在运行系统自检：\r\n<![CDATA[<color=orange>燃料储存</color>]]>：98%\r\n<![CDATA[<color=orange>结构完整度</color>]]>：99.98%\r\n<![CDATA[<color=orange>引擎状态</color>]]>：全面运行中",
+      "The main corridor to the <![CDATA[<color=orange>engine room</color>]]> has been sealed to prevent further breach of containment.": 
+      "通往<![CDATA[<color=orange>引擎室</color>]]>的主通道已被封锁，防止发生进一步泄漏。",
+      " Remember to wear adequate equipment when dealing with hazardous materials.": "处理危险材料时，请注意穿戴适当的装备。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: My suspicions were correct; that <![CDATA[<color=orange>vessel</color>]]> is abandoned. No one's shown up, not that I mind. It's in my best interest that I remain alone.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：我的怀疑没有错，那艘<![CDATA[<color=orange>飞船</color>]]>是被遗弃的。没有人出现，我也并不介意。最好还是保持独自一人。",
+      "I have found some things they left behind. Materials, mostly. It's quite a boon! The less resources I have to gather, the faster I can get this done.": 
+      "我发现了一些他们留下的东西，大部分是材料。真是天大的好事！需要搜集的资源越少，我就能越快完成计划。",
+      "I should note that I have also found a couple of warp cores lying around. This is excellent because my first idea for getting to the other planets was just going to be flinging myself to them when the orbits align.": 
+      "值得注意的是，我还在地上发现了几个跃迁核心。这太好了，因为我最初的想法是：在星球并轨时将自己弹射到其他地方，以此作为跨行星交通方式。",
+      "Unfortunately, I only have one <![CDATA[<color=orange>black hole</color>]]> warp core. If I had the time or the means to reach it, perhaps I could <![CDATA[<color=orange>get more cores</color>]]> from the <![CDATA[<color=orange>derelict vessel</color>]]>. They built this warp reciever on this planet, after all.": 
+      "不幸的是，我只有一个<![CDATA[<color=orange>黑洞</color>]]>跃迁核心。假如我有时间或其他方式<![CDATA[<color=orange>获取更多核心</color>]]>，也许我可以从<![CDATA[<color=orange>废弃飞船</color>]]>上找到一些，毕竟他们建造了这个星球上的跃迁接收点。",
+      "<![CDATA[<color=orange>Update</color>]]>: I'm going to deconstruct the warp reciever here and move it onto the train. For now it'll just lead to the <![CDATA[<color=orange>vessel</color>]]> (not that I can get there anyways), but I'll be able to make use of it eventually!": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：我会把跃迁接受点从这里拆下来并转移到火车上。目前它只能通往<![CDATA[<color=orange>飞船</color>]]>（虽然我也去不了那里），但我最终会让它发挥作用！",
+      "Perhaps I could fling myself there... no, that'd be ridiculous.": "也许我该把自己弹射到那里去……不，这太荒谬了。",
+      "Granted, I still first need to actually get to the planets to establish warp pads. Jumping's not <![CDATA[<i>entirely</i>]]> out of the question.": 
+      "不过，我还是需要先抵达各个星球安装跃迁点。跳过去也不是<![CDATA[<i>完全</i>]]>不能考虑。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I hate being here. I hate being here. <![CDATA[<i>I hate being here</i>]]>!": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：我讨厌待在这里。<![CDATA[<i>我讨厌待在这里！</i>]]>",
+      "But... I don't really have a choice. I can't spare any time for apprehention. <![CDATA[<color=orange>Locomocean's</color>]]> the only place I can really do this.": 
+      "可是……我别无选择。我没有时间去担心了。<![CDATA[<color=orange>海驰星</color>]]>是我唯一能做这件事的地方。",
+      "I wish <![CDATA[<color=orange>Spruce Caboose</color>]]> had a spacious spot, but I can't really refine <![CDATA[<color=lightblue>Ghost Matter</color>]]> while being so close to the train.": 
+      "假如<![CDATA[<color=orange>杉尾星</color>]]>有个开阔的空间就好了，但我不能在距离火车这么近的位置精炼<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "I have scouted the waters and located the perfect spot to build a <![CDATA[<color=orange>refinery</color>]]>: a spacious cavern. The fish here don't seem to be interested in it. I can at least have some sanctity within.": 
+      "我已经探测了水体，找到了修建<![CDATA[<color=orange>精炼厂</color>]]>的完美地点：一个空旷的岩洞。这里的鱼似乎对它不感兴趣。在那里，我至少能保持一些理智。",
+      "<![CDATA[<color=orange>Update</color>]]>: I have finished a cursory version of the <![CDATA[<color=orange>refinery</color>]]>. I do need to be quick, after all. I don't know how much time I have before they come looking for me.": 
+      "<![CDATA[<color=orange>进展更新</color>]]>：我完成了一个粗糙版本的<![CDATA[<color=orange>精炼厂</color>]]>，毕竟我得抓紧时间。不知道在他们找到我前我还剩多久。",
+      "The water has been pumped out and I have installed an airlock that permits entry.": "水已经抽干，我还安装了一个防止漏水的气闸。",
+      "I still need water to reduce the effects of <![CDATA[<color=lightblue>Ghost Matter</color>]]>, but I don't need it completely dissipating.": 
+      "我仍然需要水来减轻<![CDATA[<color=lightblue>幽灵物质</color>]]>的影响，但我不需要让它完全消散。",
+      "<![CDATA[<color=orange>Update #2</color>]]>: I went ahead and sealed off the cavern completely. Sand kept getting in through the airlock and it's less frustrating to just use some standard warp cores to get in and out.": 
+      "<![CDATA[<color=orange>进展更新（2）</color>]]>：我直接完全封死了岩洞。气闸一直在漏沙子，而且还是用常规的跃迁核心进出更省事。",
+      "Even if the, uh... \"entrance\" I now have to use is <![CDATA[<i>slightly</i>]]> unorthodox.": "哪怕我现在用的，呃……“入口”有<![CDATA[<i>一点点</i>]]>非同寻常。",
+      
+      "<![CDATA[<color=lightblue>Enji</color>]]>: I may have made it slightly convoluted for myself getting back to <![CDATA[<color=orange>Frost Car's Core</color>]]>, but at least I have a quick way to deal with <![CDATA[<color=lightblue>Ghost Matter</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>：也许回到<![CDATA[<color=orange>霜车星核心</color>]]>的方法太复杂了一些，但起码我有很快捷的对付<![CDATA[<color=lightblue>幽灵物质</color>]]>的方法。",
+      "Speaking of which, now that the train is up and running, I've made a much needed change to put the minds of the others at ease when I ride it back to show it off.": 
+      "说到这，既然列车已经在运行中，我对它做了一个重要改装，这样等我乘坐它回家炫耀时大家就能放心一些。",
+      "Even after going through the refinement process at <![CDATA[<color=orange>Locomocean</color>]]>, the fuel made with <![CDATA[<color=lightblue>Ghost Matter</color>]]> still leaves trace amounts of the more hazardous bits lingering in the air.": 
+      "即使经过了在<![CDATA[<color=orange>海驰星</color>]]>的精炼过程，<![CDATA[<color=lightblue>幽灵物质</color>]]>制成的燃料仍会在空气中残留微量的有害物质。",
+      "Turns out the stuff even lasts in the vacuum of space! It's coming right out of the train's whistle.": 
+      "原来这种物质在宇宙的真空中也能持续存在！它是从火车的汽笛中排出的。",
+      "To prevent the train from pumping <![CDATA[<color=lightblue>Ghost Matter</color>]]> fumes out everywhere, I've set the train to blow its whistle every <![CDATA[<color=orange>two minutes</color>]]>.": 
+      "为了避免列车到处散播含有<![CDATA[<color=lightblue>幽灵物质</color>]]>的烟雾，我将列车设置为每<![CDATA[<color=orange>两分钟</color>]]>鸣笛一次。",
+      "The whistle is already continously pumping out steam to counter the <![CDATA[<color=lightblue>Ghost Matter</color>]]> fumes, but keeping it contained by spending a little extra water every now and then to make it completely dissipate is worth it.": 
+      "汽笛原本就在持续不断排出水汽来对抗<![CDATA[<color=lightblue>幽灵物质</color>]]>烟雾，但时不时多用一点水使它消散来达到防止逃逸的效果还是很有必要的。"
+      
+    },
+    "ShipLogDictionary": {
+      //Frost Car
+      "Frost Car": "霜车星",
+      "A desolate planet of ice and snow.": "一个荒无人烟、覆盖冰雪的星球。",
+      "I found a series of ice tunnels beneath the planet's <![CDATA[<color=orange>sunward</color>]]> side. There's lots of <![CDATA[<color=lightblue>Ghost Matter</color>]]> within.": 
+      "我在星球<![CDATA[<color=orange>向阳</color>]]>的那面发现一系列地下隧道，里面有很多<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "Ghost Matter Mine": "幽灵物质矿区",
+      "I can see a structure beneath the surface on the dark side of <![CDATA[<color=orange>Frost Car</color>]]>, but I can't access it from here.": 
+      "我能在<![CDATA[<color=orange>霜车星</color>]]>背光那面的地下看到一个结构，但我不能从那进入。",
+      "I found a structure beneath the surface on the dark side of <![CDATA[<color=orange>Frost Car</color>]]>. I reached it through ice tunnels on the planet's <![CDATA[<color=orange>sunward</color>]]> side.": 
+      "我在<![CDATA[<color=orange>霜车星</color>]]>背光那面的地下发现了一个结构。我从星球<![CDATA[<color=orange>向阳</color>]]>那面的冰下隧道抵达了它。",
+      "This area is littered with <![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals.": "这片区域到处都是<![CDATA[<color=lightblue>幽灵物质</color>]]>水晶。",
+      "<![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals were harvested from here and taken to <![CDATA[<color=orange>Locomocean</color>]]>. The smaller ones were used to make fuel and a larger one was going to be used to make a new and improved <![CDATA[<color=orange>Advanced Warp Core</color>]]>.": 
+      "<![CDATA[<color=lightblue>幽灵物质</color>]]>水晶从这里被采集并运往<![CDATA[<color=orange>海驰星</color>]]>。小块水晶被用于制作燃料，而一块大水晶被用于制作改良后的新型<![CDATA[<color=orange>高级跃迁核心</color>]]>。",
+      "Warp Pad": "跃迁点",
+      "The warp pad here seems to be missing a <![CDATA[<color=orange>white hole</color>]]> warp core.": "这里的跃迁点似乎缺少一颗<![CDATA[<color=orange>白洞</color>]]>跃迁核心。",
+      "The warp core I found fit perfectly!": "我找到的跃迁核心正好合适！",
+      "<![CDATA[<color=lightblue>Enji</color>]]> blocked off the core to avoid falling down, but noted that the <![CDATA[<color=orange>first turn</color>]]> at the entrance to the ice tunnels leads directly there.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>封堵了核心以防止自己坠落，但记下了冰下隧道入口的<![CDATA[<color=orange>第一个转弯</color>]]>可以直达那里。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> also noticed that the tunnels blocked by <![CDATA[<color=lightblue>Ghost Matter</color>]]> seem to forge a more direct route to the core.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>还注意到，被<![CDATA[<color=lightblue>幽灵物质</color>]]>封堵的隧道似乎是通往核心最直接的路线。",
+      "Frost Car Core": "霜车星核心",
+      "I managed to reach the core of <![CDATA[<color=orange>Frost Car</color>]]>!": "我成功抵达了<![CDATA[<color=orange>霜车星</color>]]>的核心！",
+      "There's a scroll here.": "这里有一个卷轴。",
+      "A scroll describing the train's whistle was found here.": "这里有一个卷轴，描述了这列火车的汽笛。",
+      "Train Whistle": "火车汽笛",
+      "I found a scroll within <![CDATA[<color=orange>Frost Car's</color>]]> core.": "我在<![CDATA[<color=orange>霜车星</color>]]>的核心发现了一个卷轴。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> set up the train's <![CDATA[<color=orange>whistle</color>]]> to sound off every <![CDATA[<color=orange>two minutes</color>]]>. More steam is pumped through during this time to <![CDATA[<color=orange>dissipate excess</color>]]><![CDATA[<color=lightblue> Ghost Matter </color>]]><![CDATA[<color=orange>fumes</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>让火车的<![CDATA[<color=orange>汽笛</color>]]>每<![CDATA[<color=orange>两分钟</color>]]>鸣笛一次。在此期间会有更多水汽被排出，用于<![CDATA[<color=orange>驱散溢出的</color>]]><![CDATA[<color=lightblue>幽灵物质</color>]]><![CDATA[<color=orange>烟雾</color>]]>。",
+     
+      //Locomocean
+      "Locomocean": "海驰星",
+      "It's a ocean in motion! It's just a tad dark.": "一汪飞驰的海洋！就是有点点黑。",
+      "There are <![CDATA[<color=orange>anglerfish</color>]]> lurking around here...": "这里潜伏着许多<![CDATA[<color=orange>安康鱼</color>]]>……",
+      "A <![CDATA[<color=orange>refinery</color>]]> was built in a cavern within <![CDATA[<color=orange>Locomocean</color>]]>. <![CDATA[<color=lightblue>Enji</color>]]> sealed it off and used warp cores to get in and out.": 
+      "在<![CDATA[<color=orange>海驰星</color>]]>的一个岩洞中建有<![CDATA[<color=orange>精炼厂</color>]]>。<![CDATA[<color=lightblue>恩吉</color>]]>已将它封闭，并使用跃迁核心出入。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> considers the method for getting inside the <![CDATA[<color=orange>refinery</color>]]> to be \"slightly unorthodox\".": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>认为进入<![CDATA[<color=orange>精炼厂</color>]]>的方法“有些非同寻常”。",
+      "A <![CDATA[<color=orange>white hole</color>]]> warp core might be buried in the sand on <![CDATA[<color=orange>Locomocean's South Pole</color>]]>.": 
+      "一个<![CDATA[<color=orange>白洞</color>]]>跃迁核心可能被埋在<![CDATA[<color=orange>海驰星南极</color>]]>的沙子下。",
+      "I found a <![CDATA[<color=orange>white hole</color>]]> warp core buried in the sand on the <![CDATA[<color=orange>South Pole</color>]]>.": 
+      "我在<![CDATA[<color=orange>南极</color>]]>的沙子下找到了<![CDATA[<color=orange>白洞</color>]]>跃迁核心。",
+      "Refinery": "精炼厂",
+      "The train needs a power source from <![CDATA[<color=orange>Locomocean's refinery</color>]]> to enable warp functionality.": 
+      "列车需要<![CDATA[<color=orange>海驰星精炼厂</color>]]>提供的能源来激活跃迁功能。",
+      "<![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals were harvested from <![CDATA[<color=orange>Frost Car</color>]]> and refined at <![CDATA[<color=orange>Locomocean</color>]]>.": 
+      "从<![CDATA[<color=orange>霜车星</color>]]>开采的<![CDATA[<color=lightblue>幽灵物质</color>]]>水晶在<![CDATA[<color=orange>海驰星</color>]]>进行精炼。",
+      "An <![CDATA[<color=orange>anglerfish</color>]]> ate a warp core leading to the <![CDATA[<color=orange>refinery</color>]]>!": 
+      "一条<![CDATA[<color=orange>安康鱼</color>]]>吃掉了通往<![CDATA[<color=orange>精炼厂</color>]]>的跃迁核心。",
+      "I suddenly found myself in a strange chamber! How did I manage to get here?": "我突然发现自己来到了一个陌生的房间！我是怎么进来的？",
+      "I entered an <![CDATA[<color=orange>anglerfish</color>]]> and wound up at <![CDATA[<color=orange>Locomocean's refinery</color>]]>!": 
+      "我进入了一条<![CDATA[<color=orange>安康鱼</color>]]>并到达了<![CDATA[<color=orange>海驰星精炼厂</color>]]>。",
+      "I've found an <![CDATA[<color=orange>Advanced Warp Core</color>]]> containing <![CDATA[<color=lightblue>Ghost Matter</color>]]>. I ought to be careful with this...": 
+      "我发现了一个含有<![CDATA[<color=lightblue>幽灵物质</color>]]>的<![CDATA[<color=orange>高级跃迁核心</color>]]>。我得小心点……",
+      "Is that...?": "难道那是……？",
+      "...I found <![CDATA[<color=lightblue>Enji</color>]]>.": "……我发现了<![CDATA[<color=lightblue>恩吉</color>]]>。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> was trying to meet a <![CDATA[<color=yellow>two week</color>]]> deadline, circumventing procedures and ignoring personal safety in favor of quick development.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>努力在<![CDATA[<color=yellow>两个星期</color>]]>结束前完成一切，他为了更快的开发进度，忽略规范程序、不顾个人安全。",
+      "An explosion occurred, causing a chunk of <![CDATA[<color=lightblue>Ghost Matter</color>]]> to pin <![CDATA[<color=lightblue>Enji</color>]]> down!": 
+      "发生了一场爆炸，一块<![CDATA[<color=lightblue>幽灵物质</color>]]>将<![CDATA[<color=lightblue>恩吉</color>]]>钉在了地上！",
+      "Despite being stuck, <![CDATA[<color=lightblue>Enji</color>]]> was still able to get supplies by using their <![CDATA[<color=orange>remote drone</color>]]>.": 
+      "尽管被卡住了，<![CDATA[<color=lightblue>恩吉</color>]]>仍然能用<![CDATA[<color=orange>遥控无人机</color>]]>获取补给。",
+      "An <![CDATA[<color=orange>anglerfish</color>]]> destroyed the drone, forcing <![CDATA[<color=lightblue>Enji</color>]]> to ration their supplies.": 
+      "一条<![CDATA[<color=orange>安康鱼</color>]]>破坏了无人机，<![CDATA[<color=lightblue>恩吉</color>]]>被迫节省自己的补给。",
+      "After at least <![CDATA[<color=yellow>three weeks</color>]]> had passed, <![CDATA[<color=lightblue>Enji</color>]]> began to think that their clan wouldn't come find them.": 
+      "过了至少<![CDATA[<color=yellow>三个星期</color>]]>后，<![CDATA[<color=lightblue>恩吉</color>]]>开始觉得自己的家族不会来找他了。",
+      "Between withering away and attempting amputation, <![CDATA[<color=lightblue>Enji</color>]]> chose the former.": "在慢慢死去和尝试截肢之间，<![CDATA[<color=lightblue>恩吉</color>]]>选择了前者。",
+      
+      //Railway
+      "On A Rail": "沿轨而行",
+      "I used a <![CDATA[<color=orange>Ghost Matter Core</color>]]> in the train's <![CDATA[<color=orange>main engine room</color>]]> and entered the coordinates from the <![CDATA[<color=orange>coordinate relay</color>]]>.": 
+      "我在列车的<![CDATA[<color=orange>主引擎室</color>]]>中使用了<![CDATA[<color=orange>幽灵物质核心</color>]]>，并输入了从<![CDATA[<color=orange>坐标中继器</color>]]>获得的坐标。",
+      "I was able to get the train's warp functionality up and running! ...At least, I would have if it weren't for the time loop.": 
+      "我成功启用了列车的跃迁功能！……至少，如果不是因为时间循环，我已经成功了。",
+      "<![CDATA[<color=yellow>I saw all there was to see</color>]]>!": "<![CDATA[<color=yellow>我见证了一切！</color>]]>",
+      "Stellar Express": "星际快车",
+      "...Is that a train?": "……那是一辆火车？",
+      "This train appears to be pulling an entire system behind it on rails!": "这列火车似乎在轨道上牵引着身后的一整个星系！",
+      "A Nomai named <![CDATA[<color=lightblue>Enji</color>]]> built this train.": "一个名为<![CDATA[<color=lightblue>恩吉</color>]]>的挪麦人造了这列火车。",
+      "It seems the train needs a power source from <![CDATA[<color=orange>Locomocean's refinery</color>]]> to enable warp functionality.": 
+      "这列火车似乎需要来自<![CDATA[<color=orange>海驰星精炼厂</color>]]>的能源来启用跃迁功能。",
+      "Coordinates leading to <![CDATA[<color=lightblue>Enji's</color>]]> clan are availible somewhere on <![CDATA[<color=orange>Spruce Caboose</color>]]>.": 
+      "可以在<![CDATA[<color=orange>杉尾星</color>]]>的某处获取<![CDATA[<color=lightblue>恩吉</color>]]>家族的坐标。",
+      "The main corridor leading to the <![CDATA[<color=orange>engine room</color>]]> has been sealed shut due to <![CDATA[<color=lightblue>Ghost Matter</color>]]> leaking out.": 
+      "通向<![CDATA[<color=orange>引擎室</color>]]>的主通道由于<![CDATA[<color=lightblue>幽灵物质</color>]]>泄露已被封闭。",
+      "Engine Room": "引擎室",
+      "I managed to get around the sealed corridor by going through the train's whistle!": "我成功绕过封闭通道，从火车汽笛里进来了！",
+      "I gained entry to the <![CDATA[<color=orange>engine room</color>]]> through the train's whistle!": "我可以从火车汽笛里进入<![CDATA[<color=orange>引擎室</color>]]>！",
+      "A <![CDATA[<color=orange>Coordinate Interface</color>]]> will become accessible in the <![CDATA[<color=orange>engine room</color>]]> once the <![CDATA[<color=orange>core</color>]]> has been acquired.": 
+      "安装<![CDATA[<color=orange>核心</color>]]>后，<![CDATA[<color=orange>引擎室</color>]]>的地面会升起<![CDATA[<color=orange>坐标输入界面</color>]]>。",
+      "A socket has been prepared for a new type of <![CDATA[<color=orange>Advanced Warp Core</color>]]> that <![CDATA[<color=lightblue>Enji</color>]]> was developing.": 
+      "这里有一个插口，是给<![CDATA[<color=lightblue>恩吉</color>]]>正在开发的新型<![CDATA[<color=orange>高级跃迁核心</color>]]>用的。",
+      "Once the <![CDATA[<color=orange>core</color>]]> has been placed in the socket, a <![CDATA[<color=orange>Coordinate Interface</color>]]> will become accessible here in the <![CDATA[<color=orange>engine room</color>]]>.": 
+      "<![CDATA[<color=orange>核心</color>]]>插入后，<![CDATA[<color=orange>引擎室</color>]]>内会出现<![CDATA[<color=orange>坐标输入界面</color>]]>。",
+      "The warp pad that <![CDATA[<color=lightblue>Enji</color>]]> had been using to enter <![CDATA[<color=orange>Locomocean's refinery</color>]]> fell into the sea! It appears an <![CDATA[<color=orange>anglerfish</color>]]> ate the warp core it had.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>用来进入<![CDATA[<color=orange>海驰星精炼厂</color>]]>的跃迁点掉进海里了！一条<![CDATA[<color=orange>安康鱼</color>]]>吃掉了上面的跃迁核心。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> tried to find the <![CDATA[<color=orange>anglerfish</color>]]> that ate the core with a remote drone and noticed that the <![CDATA[<color=orange>lure</color>]]> on one particular fish <![CDATA[<color=orange>had gone dark</color>]]> when the drone suddenly ended up inside the <![CDATA[<color=orange>refinery</color>]]>!": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>试着用一个遥控无人机寻找吃掉核心的<![CDATA[<color=orange>安康鱼</color>]]>，他发现有一条鱼的<![CDATA[<color=orange>诱饵</color>]]><![CDATA[<color=orange>变暗了</color>]]>，紧接着无人机出现在了<![CDATA[<color=orange>精炼厂</color>]]>内！",
+      "When <![CDATA[<color=lightblue>Enji</color>]]> went to that specific <![CDATA[<color=orange>anglerfish</color>]]>, the <![CDATA[<color=orange>darkened lure</color>]]> appeared normal to the naked eye and was only visible through the remote drone's <![CDATA[<color=orange>camera</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>找到那条<![CDATA[<color=orange>安康鱼</color>]]>后，发现<![CDATA[<color=orange>变暗的诱饵</color>]]>肉眼所见是正常的，只能通过无人机的<![CDATA[<color=orange>摄像头</color>]]>观察到。",
+      
+      //Spruce Caboose
+      "Spruce Caboose": "杉尾星",
+      "Lush and green. The gravity here is higher than what I'm used to.": "郁郁葱葱。这里的重力比我习惯的更高些。",
+      "Warp Platform": "跃迁平台",
+      "There's a flat space nestled amongst the hills a short distance from the <![CDATA[<color=orange>North Pole</color>]]> of <![CDATA[<color=orange>Spruce Caboose</color>]]>.": 
+      "<![CDATA[<color=orange>杉尾星</color>]]>的<![CDATA[<color=orange>北极</color>]]>不远处有一些山丘，其间夹着一块平地。",
+      "A flat space nestled amongst the hills.": "山丘间夹着的一块平地。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> crash-landed here, but cleaned up the crash site. They're covering their tracks.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>迫降到了这里，不过他清理了现场。他在掩藏自己的踪迹。",
+      "There's a scroll on top of one of the hills": "其中一个山丘顶上有一个卷轴。",
+      "A scroll with <![CDATA[<color=lightblue>Enji's</color>]]> idea for constructing a space train was found atop one of the hills.": 
+      "在一个山丘顶上有一个卷轴，记录了<![CDATA[<color=lightblue>恩吉</color>]]>对太空列车的构想。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> suspected that the <![CDATA[<color=orange>derelict vessel</color>]]> at the center of all these systems might contain additional warp cores.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>怀疑在各个星系中央的<![CDATA[<color=orange>废弃飞船</color>]]>中可能有多余的跃迁核心。",
+      "A warp reciever linked to the <![CDATA[<color=orange>derelict vessel</color>]]> was moved from here to the train.": 
+      "这里的一个与<![CDATA[<color=orange>废弃飞船</color>]]>相连接的跃迁接受点被转移到了火车上。",
+      "While trying to set up warp pads between <![CDATA[<color=orange>Spruce Caboose</color>]]> and <![CDATA[<color=orange>Locomocean</color>]]>, <![CDATA[<color=lightblue>Enji</color>]]> ended up losing a <![CDATA[<color=orange>white hole</color>]]> warp core to the sea.": 
+      "在尝试建立<![CDATA[<color=orange>杉尾星</color>]]>和<![CDATA[<color=orange>海驰星</color>]]>之间的跃迁点时，<![CDATA[<color=lightblue>恩吉</color>]]>把一个<![CDATA[<color=orange>白洞</color>]]>跃迁核心掉进了海里。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> used spare warp core instead. They theorized that the dropped core might have ended up <![CDATA[<color=orange>buried in the sand</color>]]> on the <![CDATA[<color=orange>South Pole</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>转而使用跃迁核心。他猜测掉了的核心可能最终到了<![CDATA[<color=orange>南极</color>]]>并<![CDATA[<color=orange>被埋在沙子里</color>]]>。",
+      "The warp pad here seems to be missing a <![CDATA[<color=orange>black hole</color>]]> warp core.": "这里的跃迁点似乎缺失了一个<![CDATA[<color=orange>黑洞</color>]]>跃迁核心。",
+      "Central Warp Pad": "中央跃迁点",
+      "I found a <![CDATA[<color=orange>black hole</color>]]> warp core on the <![CDATA[<color=orange>derelict vessel</color>]]>.": "我在<![CDATA[<color=orange>废弃飞船</color>]]>上发现了一个<![CDATA[<color=orange>黑洞</color>]]>跃迁核心。",
+      "Enji's Project": "恩吉的计划",
+      "<![CDATA[<color=lightblue>Enji</color>]]> proposed an idea for constructing a train capable of transporting not just its passengers, but entire groups of planets!": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>提出，可以建造一种列车，不仅能运载乘客，还能牵引一大群行星！",
+      "It appears the idea was met with some skepticism.": "他的想法似乎遭到了质疑。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> decided to quietly leave their clan to attempt working alone. They needed planets that were small enough for their specifications and at least one of them needed to have <![CDATA[<color=lightblue>Ghost Matter</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>决定悄悄离开自己的家族，独自开展工作。他需要满足条件的足够小的星球，其中至少有一颗含有<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "A <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> was set up to prevent <![CDATA[<color=lightblue>Enji's</color>]]> clan from getting in the way while also allowing <![CDATA[<color=lightblue>Enji</color>]]> know how to get back to them after the train was completed.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>安装了一个<![CDATA[<color=orange>单向信号阻断器</color>]]>，以防他的家族前来干扰，同时也能让他待火车完成后回到他们身边。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> hoped that this would provide <![CDATA[<color=yellow>two weeks</color>]]> to complete the train.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>希望这能给他<![CDATA[<color=yellow>两个星期</color>]]>的时间完成火车。",
+      "Hollow Pillar": "空洞石柱",
+      "There's a hollowed out pillar on the equator of <![CDATA[<color=orange>Spruce Caboose</color>]]>.": "<![CDATA[<color=orange>杉尾星</color>]]>的赤道上有一个内部挖空的石柱。",
+      "A hollowed out pillar. It seems all entrances are covered with <![CDATA[<color=lightblue>Ghost Matter</color>]]>.": "一个内部挖空的石柱，看起来每个入口都覆盖着<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "I can see a deep pit of water within <![CDATA[<color=orange>Spruce Caboose</color>]]>.": "我在<![CDATA[<color=orange>杉尾星</color>]]>上看见一个很深的水坑。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> discovered that if you're <![CDATA[<color=orange>drenched with water</color>]]>, you are temporarily immune to the effects <![CDATA[<color=lightblue>Ghost Matter</color>]]> for roughly <![CDATA[<color=orange>one minute</color>]]>.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>发现如果将自己<![CDATA[<color=orange>用水浸湿</color>]]>，就能暂时对<![CDATA[<color=lightblue>幽灵物质</color>]]>的效果免疫，大约能持续<![CDATA[<color=orange>一分钟</color>]]>。",
+      "<![CDATA[<color=lightblue>Enji</color>]]> also learned the hard way that <![CDATA[<color=orange>water quickly vaporizes</color>]]> in the vacuum of space.": 
+      "<![CDATA[<color=lightblue>恩吉</color>]]>也以惨痛的教训提醒了自己：在宇宙的真空中，<![CDATA[<color=orange>水蒸发极快</color>]]>。",
+      "Hollow Mountain": "空洞山体",
+      "There's a hollow mountain on the equator of <![CDATA[<color=orange>Spruce Caboose</color>]]>.": "<![CDATA[<color=orange>杉尾星</color>]]>的赤道上有一座内部空心的山体。",
+      "A hollowed mountain. There's <![CDATA[<color=lightblue>Ghost Matter</color>]]> within.": "一座空心的山体，内部有<![CDATA[<color=lightblue>幽灵物质</color>]]>。",
+      "I can see a platform up high in the mountain.": "我能看到高处的山顶上有一个平台。",
+      "I was able to reach a platform that was up high in the mountain.": "我成功抵达了高处山顶上的平台。",
+      "One-Way Beacon": "单向信标",
+      "I can hear something coming from high up in the mountain.": "我能听到山上的高处传来某种声音。",
+      "I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]>.": "我在<![CDATA[<color=orange>杉尾星</color>]]>发现了一个信号。",
+      "I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]> leading to a <![CDATA[<color=orange>Coordinate Relay</color>]]>.": "我在<![CDATA[<color=orange>杉尾星</color>]]>发现了一个信号，指向一个<![CDATA[<color=orange>坐标中继器</color>]]>。",
+      "I found a <![CDATA[<color=orange>One-Way Signal Blocker</color>]]>. It appears to have some issues with its function. An error message reads the following:": 
+      "我发现了一个<![CDATA[<color=orange>单向信号阻断器</color>]]>。它的功能似乎有些故障。一条报错消息上写着：",
+      "<![CDATA[<color=red>ERROR</color>]]>: Scheduled automatic cessation of <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> following user inputed time of <![CDATA[<color=yellow>three weeks</color>]]> has failed.": 
+      "<![CDATA[<color=red>错误</color>]]>：根据用户输入时间（<![CDATA[<color=yellow>三个星期</color>]]>）预约的<![CDATA[<color=orange>单向信号阻断器</color>]]>自动终止程序已失败。",
+      "There's a scroll ontop of the platform.": "平台上有一个卷轴。",
+      "A scroll detailing <![CDATA[<color=lightblue>Enji's</color>]]> plan was found here.": "这里有一个卷轴，详细记录了<![CDATA[<color=lightblue>恩吉</color>]]>的计划。",
+      "Coordinates": "坐标",
+      "I managed to find a set of <![CDATA[<color=orange>coordinates</color>]]>!": "我成功找到了一组<![CDATA[<color=orange>坐标</color>]]>！"
+      
+    },
+    "UIDictionary":{
+      "Spruce Caboose": "杉尾星",
+		  "Frost Car": "霜车星",
+		  "Locomocean": "海驰星",
+      "Beacon Blocker": "信标阻断器",
+      "Stellar Express": "星际快车",
+      "Somewhere, somehow, a Nomai clan witnesses something once deemed impossible... If only there weren't a time loop.": "某时某地，某个挪麦家族见证了曾被认为不可能之事……如果没有时间循环就好了。",
+      "Reverse Beacon": "反向信标",
+      "One-Way Frequency": "单向频道",
+      "DANGER: GHOST MATTER DETECTED NEARBY": "危险：检测到附近有幽灵物质",
+      "Warp Core": "跃迁核心"
+
+    },
+    "OtherDictionary":{
+
+    }
+}
