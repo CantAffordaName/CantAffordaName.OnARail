@@ -102,7 +102,7 @@
     "FROST_TO_OCEAN_TEXT_5": "不知道<color=orange>安诺纳</color>会如何评价我的设计……",
     "FROST_TO_OCEAN_TEXT_6": "我不想因坠亡而妨害自己的成功，因此决定封堵通往核心的入口。",
     "FROST_TO_OCEAN_TEXT_7": "我不需要再下去了，但我最终需要回来处理小块水晶。熵增什么的，你懂的。",
-    "FROST_TO_OCEAN_TEXT_8": "<color=orange>进展更新</color>：我必须回去……我需要一颗更大的水晶。供日后参考：从冰下隧道<color=orange>进入后的第一个转弯</color>可以直达<color=orange>核心</color>。仔细想来，被<color=lightblue>幽灵物质</color>封堵的隧道似乎是最直接的路径。", //"<color=orange>Update</color>: The large crystal I've chosen isn't potent enough so I've returned for another. For future reference, <color=orange>the first turn after entering</color> the ice tunnels leads directly to the <color=orange>core</color>. Come to think of it, the tunnels blocked by <color=lightblue>Ghost Matter</color> seem to be the most direct route to it."
+    "FROST_TO_OCEAN_TEXT_8": "<color=orange>进展更新</color>：我选的那块大水晶不够强效，因此我回来再换一颗。供日后参考：从冰下隧道<color=orange>进入后的第一个转弯</color>可以直达<color=orange>核心</color>。仔细想来，被<color=lightblue>幽灵物质</color>封堵的隧道似乎是最直接的路径。", 
 
     "GM_SAFETY_TEXT_1": "<color=lightblue>恩吉</color>：看看……要是我早知道<i>这个</i>就好了！",
     "GM_SAFETY_TEXT_2": "刚才我正在挖掘这根石柱收集建造火车的材料，突然发现我的正上方是含水层。",
@@ -114,14 +114,14 @@
     "GM_SAFETY_TEXT_8": "进一步试验表明，在离开水后、身体干燥之前，我有大约<color=orange>一分钟</color>的时间可以使用我新发现的特殊能力。",
     "GM_SAFETY_TEXT_9": "<color=orange>进展更新</color>：我以惨痛的教训提醒了自己：在宇宙的真空中，<color=orange>水蒸发极快</color>。好痛。",
 
-    "SPRUCE_TO_FROST_TEXT_1": "占位符", //"<color=lightblue>Enji</color>: I've finished setting up tractor beams on <color=orange>Spruce Caboose</color>, <color=orange>Locomocean</color>, and <color=orange>Frost Car</color>."
-    "SPRUCE_TO_FROST_TEXT_2": "占位符", //"Once the train is complete, the beams will remain on indefinitely to keep the planets alined and in tow."
-    "SPRUCE_TO_FROST_TEXT_3": "占位符", //"Of course, since they give away my presence quite easily I will keep them off for now and enable them temporarily to move between the planets."
-    "SPRUCE_TO_FROST_TEXT_4": "占位符", //"Now that I've acquired the materials I need for construction, I'll make way for <color=orange>Frost Car</color> to get my limbs on <color=lightblue>Ghost Matter</color>. The trick I've learned here should prove useful."
-    "SPRUCE_TO_FROST_TEXT_5": "占位符", //"<color=orange>Update</color>: Flinging myself to <color=orange>Frost Car</color> will not suffice. Not even having a ship would help. No worries! I've implemented a solution to work around this."
-    "SPRUCE_TO_FROST_TEXT_6": "占位符", //"It seems that while the exterior of <color=orange>Frost Car</color> is exposed to the vacuum of space, the ice tunnels beneath the <color=orange>sunward side</color> appear to have some sort of atmosphere within."
-    "SPRUCE_TO_FROST_TEXT_7": "占位符", //"I'll make use of my warp cores to transport the <color=lightblue>Ghost Matter</color> to <color=orange>Locomocean</color>. As I only have one <color=orange>black hole</color> warp core, I've constructed a <color=orange>warp receiver</color> within <color=orange>Frost Car</color>."
-    "SPRUCE_TO_FROST_TEXT_8": "占位符", //"Conveniently, the cores I'm using for these warp pads <color=orange>do not</color> require an alignment window to function. Quite the timesaver, but the question has to be asked... Why hasn't anyone implemented this sooner?!"
+    "SPRUCE_TO_FROST_TEXT_1": "<color=lightblue>恩吉</color>：我完成了在<color=orange>杉尾星</color>、<color=orange>海驰星</color>和<color=orange>霜车星</color>上的牵引光束的安装。", 
+    "SPRUCE_TO_FROST_TEXT_2": "列车完工后，这些光束将持续开启，确保星球排成一队、紧紧跟随。", 
+    "SPRUCE_TO_FROST_TEXT_3": "当然，由于它们非常容易暴露我的存在，我会先将它们关闭，等我需要在星球间移动时再暂时开启。", 
+    "SPRUCE_TO_FROST_TEXT_4": "既然我已经获取了建造所需的材料，接下来我会前往<color=orange>霜车星</color>着手开采<color=lightblue>幽灵物质</color>。我在这里学到的小技巧应该会派上用场。", 
+    "SPRUCE_TO_FROST_TEXT_5": "<color=orange>进展更新</color>：把自己甩到<color=orange>霜车星</color>上是不够的。即使乘坐飞船也无济于事。不用担心！我已经找到了克服困难的办法。", 
+    "SPRUCE_TO_FROST_TEXT_6": "<color=orange>霜车星</color>的外表直接暴露在宇宙的真空中，但它<color=orange>向阳面</color>下的冰下隧道内似乎含有某种大气。", 
+    "SPRUCE_TO_FROST_TEXT_7": "我会用我的跃迁核心把<color=lightblue>幽灵物质</color>运输到<color=orange>海驰星</color>。因为我只有一个<color=orange>黑洞</color>跃迁核心，所以我在<color=orange>霜车星</color>内部造了一个<color=orange>跃迁接收点</color>。",
+    "SPRUCE_TO_FROST_TEXT_8": "十分方便的是，用于这些跃迁点的核心<color=orange>不需要</color>互相对准就可以工作。确实节省了不少时间，但我必须要问……之前怎么没有人利用这项技术？！", 
 
     "SPRUCE_TO_OCEAN_TEXT_1": "<color=lightblue>恩吉</color>：最新情况进展汇报。我……刚刚丢失了一个跃迁核心。",
     "SPRUCE_TO_OCEAN_TEXT_2": "我正在封锁<color=orange>海驰星精炼厂</color>，并且通过星球间跳跃带来了一个<color=orange>白洞</color>核心。我撞到了一块陆地。在一颗海洋星球上。不是我想象中的<i>啪唧</i>声（哈哈。我好痛）。",
@@ -172,7 +172,7 @@
     "SHARED_WARP_INSERTED_TEXT": "我找到的跃迁核心正好合适！",
 
     "RAILWAY_ROOT_NAME": "沿轨而行",
-    "RAILWAY_FINAL_RUMOR_TEXT": "占位符", //"I used a <color=orange>Ghost Matter Core</color> in the train's <color=orange>main engine room</color> and randomly entered coordinates."
+    "RAILWAY_FINAL_RUMOR_TEXT": "我在列车的<color=orange>主引擎室</color>中使用了<color=orange>幽灵物质核心</color>，并随意输入了几个坐标。", 
     "RAILWAY_FINAL_RUMOR_ALT_TEXT": "我在列车的<color=orange>主引擎室</color>中使用了<color=orange>幽灵物质核心</color>，并输入了从<color=orange>坐标中继器</color>获得的坐标。",
     "RAILWAY_FINAL_FACT_TEXT": "我成功启用了列车的跃迁功能！……至少，如果不是因为时间循环，我已经成功了。",
     "RAILWAY_FINAL_FACT_2_TEXT": "<color=yellow>我见证了一切！</color>",
@@ -199,7 +199,7 @@
     "FROSTCAR_BASE_GM_TEXT": "我在星球<color=orange>向阳</color>的那面发现一系列地下隧道，里面有很多<color=lightblue>幽灵物质</color>。",
 
     "FROSTCAR_MINE_NAME": "幽灵物质矿区",
-    "FROSTCAR_MINE_RUMOR_NAME": "占位符", //"Under The Ice"
+    "FROSTCAR_MINE_RUMOR_NAME": "冰层之下", 
     "FROSTCAR_MINE_RUMOR_TEXT": "我能在<color=orange>霜车星</color>背光那面的地下看到一个结构，但我不能从那进入。",
     "FROSTCAR_MINE_RUMOR_ALT_TEXT": "我在<color=orange>霜车星</color>背光那面的地下发现了一个结构。我从星球<color=orange>向阳</color>那面的冰下隧道抵达了它。",
     "FROSTCAR_MINE_FACT_TEXT": "这片区域到处都是<color=lightblue>幽灵物质</color>水晶。",
@@ -222,18 +222,18 @@
     "LOCOMOCEAN_BASE_SCROLL_1_TEXT": "在<color=orange>海驰星</color>的一个岩洞中建有<color=orange>精炼厂</color>。<color=lightblue>恩吉</color>已将它封闭，并使用跃迁核心出入。",
     "LOCOMOCEAN_BASE_SCROLL_2_TEXT": "<color=lightblue>恩吉</color>认为进入<color=orange>精炼厂</color>的方法“有些非同寻常”。",
 
-    "LOCOMOCEAN_WARPCORE_NAME": "占位符", //"Lost Warp Core"
-    "LOCOMOCEAN_WARPCORE_RUMOR_TEXT": "一个<color=orange>白洞</color>跃迁核心可能被埋在<color=orange>海驰星南极</color>的沙子下。", //"A <color=orange>white hole</color> warp core might be buried under the sand on <color=orange>Locomocean's South Pole</color>."
-    "LOCOMOCEAN_WARPCORE_FACT_TEXT": "我在<color=orange>南极</color>的沙子下找到了<color=orange>白洞</color>跃迁核心。", //"I found a <color=orange>white hole</color> warp core buried under the sand on the <color=orange>South Pole</color>."
+    "LOCOMOCEAN_WARPCORE_NAME": "丢失的跃迁核心", 
+    "LOCOMOCEAN_WARPCORE_RUMOR_TEXT": "一个<color=orange>白洞</color>跃迁核心可能被埋在<color=orange>海驰星南极</color>的沙子下。", 
+    "LOCOMOCEAN_WARPCORE_FACT_TEXT": "我在<color=orange>南极</color>的沙子下发现了一个<color=orange>白洞</color>跃迁核心。", 
 
     "LOCOMOCEAN_CORE_NAME": "精炼厂",
     "LOCOMOCEAN_CORE_OBJECTIVE_RUMOR_TEXT": "列车需要<color=orange>海驰星精炼厂</color>提供的能源来激活跃迁功能。",
     "LOCOMOCEAN_CORE_RUMOR_TEXT": "从<color=orange>霜车星</color>开采的<color=lightblue>幽灵物质</color>水晶在<color=orange>海驰星</color>进行精炼。",
-    "LOCOMOCEAN_CORE_SCROLL_RUMOR_TEXT": "占位符", //"A <color=orange>refinery</color> was built in a cavern within <color=orange>Locomocean</color>. <color=lightblue>Enji</color> sealed it off and used warp cores to get in and out."
+    "LOCOMOCEAN_CORE_SCROLL_RUMOR_TEXT": "在<color=orange>海驰星</color>的一个岩洞中建有<color=orange>精炼厂</color>。<color=lightblue>恩吉</color>已将它封闭，并使用跃迁核心出入。", 
     "LOCOMOCEAN_CORE_WARP_RUMOR_TEXT": "一条<color=orange>安康鱼</color>吃掉了通往<color=orange>精炼厂</color>的跃迁核心。",
-    "LOCOMOCEAN_CORE_SCOUT_TEXT": "占位符", //"My scout suddenly appeared in a large chamber!"
-    "LOCOMOCEAN_CORE_CHEATER_TEXT": "我突然发现自己来到了一个陌生的房间！我是怎么进来的？", //"How did I get in here?"
-    "LOCOMOCEAN_CORE_FACT_TEXT": "我进入了一条<color=orange>安康鱼</color>并到达了<color=orange>海驰星精炼厂</color>。",
+    "LOCOMOCEAN_CORE_SCOUT_TEXT": "我的小侦察兵突然出现在一个巨大的房间内！", 
+    "LOCOMOCEAN_CORE_CHEATER_TEXT": "我是怎么进来的？", 
+    "LOCOMOCEAN_CORE_FACT_TEXT": "我进入了一条<color=orange>安康鱼</color>并抵达了<color=orange>海驰星精炼厂</color>。",
     "LOCOMOCEAN_CORE_WARPCORE_TEXT": "我发现了一个含有<color=lightblue>幽灵物质</color>的<color=orange>高级跃迁核心</color>。我得小心点……",
 
     "LOCOMOCEAN_ENJI_NAME": "恩吉",
@@ -249,8 +249,8 @@
 
     "SPRUCECABOOSE_BASE_NAME": "杉尾星",
     "SPRUCECABOOSE_BASE_FACT_TEXT": "郁郁葱葱。这里的重力比我习惯的更高些。",
-    "SPRUCECABOOSE_BASE_FROSTCAR_1_TEXT": "占位符", //"<color=lightblue>Enji</color> found ice tunnels beneath the <color=orange>sunward side</color> of <color=orange>Frost Car</color>."
-    "SPRUCECABOOSE_BASE_FROSTCAR_2_TEXT": "占位符", //"The exterior of <color=orange>Frost Car</color> is exposed to the vacuum of space, but the interior has its own atmosphere."
+    "SPRUCECABOOSE_BASE_FROSTCAR_1_TEXT": "<color=lightblue>恩吉</color>在<color=orange>霜车星</color>的<color=orange>向阳面</color>下发现了一系列冰下隧道。", 
+    "SPRUCECABOOSE_BASE_FROSTCAR_2_TEXT": "<color=orange>霜车星</color>的外表直接暴露在宇宙的真空中，但它的内部有自己的大气。", 
 
     "SPRUCECABOOSE_PLATFORM_NAME": "跃迁平台",
     "SPRUCECABOOSE_PLATFORM_RUMOR_TEXT": "<color=orange>杉尾星</color>的<color=orange>北极</color>不远处有一些山丘，其间夹着一块平地。",
@@ -261,13 +261,13 @@
     "SPRUCECABOOSE_PLATFORM_CORES_1_TEXT": "<color=lightblue>恩吉</color>怀疑在各个星系中央的<color=orange>废弃飞船</color>中可能有多余的跃迁核心。",
     "SPRUCECABOOSE_PLATFORM_CORES_2_TEXT": "这里的一个与<color=orange>废弃飞船</color>相连接的跃迁接受点被转移到了火车上。",
     "SPRUCECABOOSE_PLATFORM_LOSTCORE_1_TEXT": "在尝试建立<color=orange>杉尾星</color>和<color=orange>海驰星</color>之间的跃迁点时，<color=lightblue>恩吉</color>把一个<color=orange>白洞</color>跃迁核心掉进了海里。",
-    "SPRUCECABOOSE_PLATFORM_LOSTCORE_2_TEXT": "<color=lightblue>恩吉</color>转而使用跃迁核心。他猜测掉了的核心可能最终到了<color=orange>南极</color>并<color=orange>被埋在沙子里</color>。",
+    "SPRUCECABOOSE_PLATFORM_LOSTCORE_2_TEXT": "<color=lightblue>恩吉</color>转而使用跃迁核心。他猜测丢失的核心可能最终到了<color=orange>南极</color>并<color=orange>被埋进了沙子里</color>。",
 
     "SPRUCECABOOSE_PLATFORM_WARP_RUMOR_TEXT": "这里的跃迁点似乎缺失了一个<color=orange>黑洞</color>跃迁核心。",
 
     "SPRUCECABOOSE_VESSEL_PLATFORM_NAME": "中央跃迁点",
-    "SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_NAME": "占位符", //"Warp Cores"
-    "SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_TEXT": "占位符", //"<color=lightblue>Enji</color> suspected that the <color=orange>derelict vessel</color> at the center of all these systems might contain additional warp cores."
+    "SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_NAME": "跃迁核心", 
+    "SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_TEXT": "<color=lightblue>恩吉</color>猜测位于所有星系中央的<color=orange>废弃飞船</color>内可能有额外的跃迁核心。", 
     "SPRUCECABOOSE_VESSEL_PLATFORM_FACT_TEXT": "我在<color=orange>废弃飞船</color>上发现了一个<color=orange>黑洞</color>跃迁核心。",
 
     "SPRUCECABOOSE_ENJI_PROJECT_NAME": "恩吉的计划",
@@ -291,7 +291,7 @@
     "SPRUCECABOOSE_MOUNTAIN_OBSERVATION_ALT_TEXT": "我成功抵达了高处山顶上的平台。",
 
     "SPRUCECABOOSE_MOUNTAIN_AUDIO_NAME": "单向信标",
-    "SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR_NAME": "占位符", //Mysterious Sound
+    "SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR_NAME": "神秘的声音", 
     "SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR_TEXT": "我能听到山上的高处传来某种声音。",
     "SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_TEXT": "我在<color=orange>杉尾星</color>发现了一个信号。",
     "SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_ALT_TEXT": "我在<color=orange>杉尾星</color>发现了一个信号，指向一个<color=orange>坐标中继器</color>。",
@@ -302,7 +302,7 @@
     "SPRUCECABOOSE_MOUNTAIN_SCROLL_ALT_TEXT": "这里有一个卷轴，详细记录了<color=lightblue>恩吉</color>的计划。",
 
     "SPRUCECABOOSE_COORDS_NAME": "坐标",
-    "SPRUCECABOOSE_COORDS_AUDIO_NAME": "占位符", //Signal
+    "SPRUCECABOOSE_COORDS_AUDIO_NAME": "信号", 
     "SPRUCECABOOSE_COORDS_FACT_TEXT": "我成功找到了一组<color=orange>坐标</color>！"
 
   },
@@ -319,7 +319,7 @@
     "Reverse Beacon": "反向信标",
     "Coordinate Relay": "坐标中继器",
     "Warp Core": "跃迁核心",
-    "Ghost Matter Core": "占位符", //Ghost Matter Core
+    "Ghost Matter Core": "幽灵物质核心", 
     "CREDIT_VOLUME_TEXT": "某时某地，某个挪麦家族见证了曾被认为不可能之事……\r\n如果没有时间循环就好了。"
   }
 }
