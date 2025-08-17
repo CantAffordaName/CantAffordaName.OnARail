@@ -4,116 +4,150 @@
 
   <Entry>
     <ID>LOCOMOCEAN_BASE</ID>
-    <Name>Locomocean</Name>
+    <Name>LOCOMOCEAN_BASE_NAME</Name>
     <Curiosity>LOCOMOCEAN_CURIOSITY</Curiosity>
+    <IgnoreMoreToExplore/>
 
     <ExploreFact>
       <ID>LOCOMOCEAN_BASE_FACT</ID>
-      <Text>It's a ocean in motion! It's just a tad dark.</Text>
+      <Text>LOCOMOCEAN_BASE_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOCOMOCEAN_BASE_FISH</ID>
-      <Text>There are <![CDATA[<color=orange>anglerfish</color>]]> lurking around here...</Text>
+      <Text>LOCOMOCEAN_BASE_FISH_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOCOMOCEAN_BASE_SCROLL_1</ID>
-      <Text>A <![CDATA[<color=orange>refinery</color>]]> was built in a cavern within <![CDATA[<color=orange>Locomocean</color>]]>. <![CDATA[<color=lightblue>Enji</color>]]> sealed it off and used warp cores to get in and out.</Text>
+      <Text>LOCOMOCEAN_BASE_SCROLL_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOCOMOCEAN_BASE_SCROLL_2</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> considers the method for getting inside the <![CDATA[<color=orange>refinery</color>]]> to be "slightly unorthodox".</Text>
+      <Text>LOCOMOCEAN_BASE_SCROLL_2_TEXT</Text>
     </ExploreFact>
     <RumorFact>
       <ID>LOCOMOCEAN_BASE_WARPCORE_RUMOR</ID>
       <SourceID>SPRUCECABOOSE_PLATFORM</SourceID>
-      <RumorName>Lost Warp Core</RumorName>
-      <Text>A <![CDATA[<color=orange>white hole</color>]]> warp core might be buried in the sand on <![CDATA[<color=orange>Locomocean's South Pole</color>]]>.</Text>
+      <RumorName>LOCOMOCEAN_WARPCORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_WARPCORE_RUMOR_TEXT</Text>
     </RumorFact>
-    <ExploreFact>
-      <ID>LOCOMOCEAN_BASE_WARPCORE</ID>
-      <Text>I found a <![CDATA[<color=orange>white hole</color>]]> warp core buried in the sand on the <![CDATA[<color=orange>South Pole</color>]]>.</Text>
-    </ExploreFact>
+    <Entry>
+      <ID>LOCOMOCEAN_WARPCORE</ID>
+      <Name>LOCOMOCEAN_WARPCORE_NAME</Name>
+      <Curiosity>LOCOMOCEAN_CURIOSITY</Curiosity>
+
+      <RumorFact>
+        <ID>LOCOMOCEAN_WARPCORE_RUMOR</ID>
+        <SourceID>LOCOMOCEAN_BASE</SourceID>
+        <RumorName>LOCOMOCEAN_WARPCORE_NAME</RumorName>
+        <Text>LOCOMOCEAN_WARPCORE_RUMOR_TEXT</Text>
+        <AltText>
+          <Text>LOCOMOCEAN_WARPCORE_FACT_TEXT</Text>
+          <Condition>LOCOMOCEAN_WARPCORE_FACT</Condition>
+        </AltText>
+      </RumorFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_WARPCORE_FACT</ID>
+        <Text>LOCOMOCEAN_WARPCORE_FACT_TEXT</Text>
+      </ExploreFact>
+    </Entry>
+    <Entry>
+      <ID>LOCOMOCEAN_ENJI</ID>
+      <Name>LOCOMOCEAN_ENJI_NAME</Name>
+      <Curiosity>LOCOMOCEAN_CURIOSITY</Curiosity>
+
+      <RumorFact>
+        <ID>LOCOMOCEAN_ENJI_RUMOR</ID>
+        <SourceID>LOCOMOCEAN_BASE</SourceID>
+        <RumorName>LOCOMOCEAN_ENJI_RUMOR_NAME</RumorName>
+        <Text>LOCOMOCEAN_ENJI_RUMOR_TEXT</Text>
+        <AltText>
+          <Text>LOCOMOCEAN_ENJI_FACT_1_TEXT</Text>
+          <Condition>LOCOMOCEAN_ENJI_FACT_1</Condition>
+        </AltText>
+      </RumorFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_1</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_1_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_2</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_2_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_3</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_3_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_4</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_4_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_5</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_5_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_6</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_6_TEXT</Text>
+      </ExploreFact>
+      <ExploreFact>
+        <ID>LOCOMOCEAN_ENJI_FACT_7</ID>
+        <Text>LOCOMOCEAN_ENJI_FACT_7_TEXT</Text>
+      </ExploreFact>
+    </Entry>
   </Entry>
-  
+
   <Entry>
     <ID>LOCOMOCEAN_CORE</ID>
-    <Name>Refinery</Name>
+    <Name>LOCOMOCEAN_CORE_NAME</Name>
     <Curiosity>LOCOMOCEAN_CURIOSITY</Curiosity>
     <IsCuriosity/>
 
     <RumorFact>
       <ID>LOCOMOCEAN_CORE_OBJECTIVE_RUMOR</ID>
       <SourceID>RAILWAY_START</SourceID>
-      <RumorName>Refinery</RumorName>
-      <Text>The train needs a power source from <![CDATA[<color=orange>Locomocean's refinery</color>]]> to enable warp functionality.</Text>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_OBJECTIVE_RUMOR_TEXT</Text>
     </RumorFact>
     <RumorFact>
       <ID>LOCOMOCEAN_CORE_RUMOR</ID>
       <SourceID>FROSTCAR_MINE</SourceID>
-      <RumorName>Refinery</RumorName>
-      <Text><![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals were harvested from <![CDATA[<color=orange>Frost Car</color>]]> and refined at <![CDATA[<color=orange>Locomocean</color>]]>.</Text>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_RUMOR_TEXT</Text>
     </RumorFact>
     <RumorFact>
       <ID>LOCOMOCEAN_CORE_SCROLL_RUMOR</ID>
       <SourceID>LOCOMOCEAN_BASE</SourceID>
-      <RumorName>Refinery</RumorName>
-      <Text>A <![CDATA[<color=orange>refinery</color>]]> was built in a cavern within <![CDATA[<color=orange>Locomocean</color>]]>. <![CDATA[<color=lightblue>Enji</color>]]> sealed it off and used warp cores to get in and out.</Text>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_SCROLL_RUMOR_TEXT</Text>
     </RumorFact>
     <RumorFact>
       <ID>LOCOMOCEAN_CORE_WARP_RUMOR</ID>
       <SourceID>RAILWAY_ENGINEROOM</SourceID>
-      <RumorName>Refinery</RumorName>
-      <Text>An <![CDATA[<color=orange>anglerfish</color>]]> ate a warp core leading to the <![CDATA[<color=orange>refinery</color>]]>!</Text>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_WARP_RUMOR_TEXT</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>LOCOMOCEAN_CORE_SCOUT</ID>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_SCOUT_TEXT</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>LOCOMOCEAN_CORE_CHEATER</ID>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_CHEATER_TEXT</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>LOCOMOCEAN_CORE_WARPCORE_RUMOR</ID>
+      <RumorName>LOCOMOCEAN_CORE_NAME</RumorName>
+      <Text>LOCOMOCEAN_CORE_WARPCORE_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>LOCOMOCEAN_CORE_FACT</ID>
-      <Text>I suddenly found myself in a strange chamber! How did I manage to get here?</Text>
-      <AltText>
-        <Text>I entered an <![CDATA[<color=orange>anglerfish</color>]]> and wound up at <![CDATA[<color=orange>Locomocean's refinery</color>]]>!</Text>
-        <Condition>RAILWAY_ENGINEROOM_ANGLERFISH_2</Condition>
-      </AltText>
+      <Text>LOCOMOCEAN_CORE_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>LOCOMOCEAN_CORE_WARPCORE</ID>
-      <Text>I've found an <![CDATA[<color=orange>Advanced Warp Core</color>]]> containing <![CDATA[<color=lightblue>Ghost Matter</color>]]>. I ought to be careful with this...</Text>
+      <Text>LOCOMOCEAN_CORE_WARPCORE_TEXT</Text>
     </ExploreFact>
-    <Entry>
-      <ID>LOCOMOCEAN_ENJI</ID>
-      <Name>Enji</Name>
-      <Curiosity>LOCOMOCEAN_CURIOSITY</Curiosity>
-
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_1</ID>
-        <Text>Is that...?</Text>
-        <AltText>
-          <Text>...I found <![CDATA[<color=lightblue>Enji</color>]]>.</Text>
-          <Condition>LOCOMOCEAN_ENJI_FACT_2</Condition>
-        </AltText>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_2</ID>
-        <Text><![CDATA[<color=lightblue>Enji</color>]]> was trying to meet a <![CDATA[<color=yellow>two week</color>]]> deadline, circumventing procedures and ignoring personal safety in favor of quick development.</Text>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_3</ID>
-        <Text>An explosion occurred, causing a chunk of <![CDATA[<color=lightblue>Ghost Matter</color>]]> to pin <![CDATA[<color=lightblue>Enji</color>]]> down!</Text>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_4</ID>
-        <Text>Despite being stuck, <![CDATA[<color=lightblue>Enji</color>]]> was still able to get supplies by using their <![CDATA[<color=orange>remote drone</color>]]>.</Text>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_5</ID>
-        <Text>An <![CDATA[<color=orange>anglerfish</color>]]> destroyed the drone, forcing <![CDATA[<color=lightblue>Enji</color>]]> to ration their supplies.</Text>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_6</ID>
-        <Text>After at least <![CDATA[<color=yellow>three weeks</color>]]> had passed, <![CDATA[<color=lightblue>Enji</color>]]> began to think that their clan wouldn't come find them.</Text>
-      </ExploreFact>
-      <ExploreFact>
-        <ID>LOCOMOCEAN_ENJI_FACT_7</ID>
-        <Text>Between withering away and attempting amputation, <![CDATA[<color=lightblue>Enji</color>]]> chose the former.</Text>
-      </ExploreFact>
-    </Entry>
   </Entry>
 </AstroObjectEntry>

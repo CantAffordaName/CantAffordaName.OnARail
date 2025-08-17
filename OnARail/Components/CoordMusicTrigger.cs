@@ -6,7 +6,8 @@ namespace OnARail.Components
     internal class CoordMusicTrigger : MonoBehaviour
     {
         public bool shouldPlay = false;
-        
+        public AudioSource whistleAudio;
+
         public virtual void OnTriggerEnter(Collider hitCollider)
         {
             if (hitCollider.attachedRigidbody == Locator.GetPlayerBody()._rigidbody)
@@ -17,6 +18,7 @@ namespace OnARail.Components
                     //Disable for Final Voyage, but re-enable the loop later to prevent game over!
                     TimeLoop.SetTimeLoopEnabled(false);
                     GlobalMessenger<OWRigidbody>.FireEvent("ExitTimeLoopCentral", Locator.GetPlayerBody());
+                    whistleAudio.volume = 0.5f;
                 }
                 /*else
                 {

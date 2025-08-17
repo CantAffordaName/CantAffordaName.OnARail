@@ -81,7 +81,7 @@
       },
       {
         "radius": 10,
-        "reveals": [ "SPRUCECABOOSE_PLATFORM_FACT", "SPRUCECABOOSE_PLATFORM_WARP_FACT", "SPRUCECABOOSE_PLATFORM_RUMOR" ],
+        "reveals": [ "SPRUCECABOOSE_PLATFORM_FACT", "SPRUCECABOOSE_PLATFORM_WARP_RUMOR", "SPRUCECABOOSE_PLATFORM_RUMOR" ],
         "revealOn": "enter",
         "position": {
           "x": 30,
@@ -192,34 +192,6 @@
       {
         "radius": 20,
         "priority": 2
-      }
-    ],
-    "notificationVolumes": [
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 23,
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": -33
-        },
-        "target": "player",
-        "rename": "GM_Message_Exterior"
-      },
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 20,
-        "position": {
-          "x": -30,
-          "y": 0,
-          "z": 0
-        },
-        "target": "player",
-        "rename": "GM_Message_Interior"
       }
     ],
     "hazardVolumes": [
@@ -541,6 +513,55 @@
               "location": "a",
               "xmlFile": "planets/nomaitext/SpruceToOcean.xml",
               "seed": 12
+            },
+            {
+              "id": "REMOTE_FROSTCAR",
+              "location": "b",
+              "xmlFile": "planets/nomaitext/SpruceToFrost.xml",
+              "seed": 123456,
+              "arcInfo": [
+                {
+                  "type": "adult"
+                },
+                {
+                  "type": "adult"
+                },
+                {
+                  "type": "adult"
+                },
+                {
+                  "type": "adult"
+                },
+                {
+                  "type": "adult"
+                },
+                {
+                  "type": "adult",
+                  "position": {
+                    "x": 2.1,
+                    "y": 1.55
+                  },
+                  "zRotation": 215
+                },
+                {
+                  "type": "adult",
+                  "mirror": true,
+                  "position": {
+                    "x": 1.51,
+                    "y": 0.95
+                  },
+                  "zRotation": 120
+                },
+                {
+                  "type": "adult",
+                  "mirror": true,
+                  "position": {
+                    "x": 0.92,
+                    "y": 0.2
+                  },
+                  "zRotation": 350
+                }
+              ]
             }
           ]
         }
@@ -560,6 +581,25 @@
               "x": 61.32196,
               "y": 129.3314,
               "z": 307.0144
+            }
+          }
+        ]
+      },
+      {
+        "id": "REMOTE_FROSTCAR",
+        "decalPath": "planets/textures/projection pools/FrostCar.png",
+        "stones": [
+          {
+            "rename": "FrostCar_RemoteStone",
+            "position": {
+              "x": 29.56127,
+              "y": 4.516834,
+              "z": 1.257353
+            },
+            "rotation": {
+              "x": 53.02915,
+              "y": 180,
+              "z": 90
             }
           }
         ]
@@ -689,6 +729,28 @@
       {
         "path": "",
         "rename": "Props"
+      },
+      {
+        "rename": "GM_NotificationVolume (1)",
+        "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
+        "parentPath": "Sector/Props",
+        "scale": 1.35,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -33
+        }
+      },
+      {
+        "rename": "GM_NotificationVolume (2)",
+        "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
+        "parentPath": "Sector/Props",
+        "scale": 1.5,
+        "position": {
+          "x": -30,
+          "y": 0,
+          "z": 0
+        }
       },
       {
         "rename": "GhostMatterClutter (1)",
@@ -1048,18 +1110,6 @@
           "x": -15.42092,
           "y": -24.7276,
           "z": -14.50478
-        },
-        "alignRadial": true
-      },
-      {
-        "path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root/Prefab_TH_Redwood",
-        "rename": "Tree (22)",
-        "parentPath": "Sector/Trees",
-        "scale": 1.2,
-        "position": {
-          "x": -6.244297,
-          "y": -62.1658,
-          "z": 6.239951
         },
         "alignRadial": true
       },

@@ -1,32 +1,22 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=red>WARNING</color>]]>: A fuel leak has been detected in the <![CDATA[<color=orange>main corridor</color>]]>.</Text>
+		<Text>TRAIN_WARNING_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
-      <ParentID>1</ParentID>
-    <Text>
-<![CDATA[Running System Diagnostics:
-]]>
-<![CDATA[<color=orange>Fuel Reserves</color>]]>: 98%
-<![CDATA[<color=orange>Structural Integrity</color>]]>: 99.98%
-<![CDATA[<color=orange>Engine Status</color>]]>: Fully operational
-  </Text>
+    <ParentID>1</ParentID>
+    <Text>TRAIN_WARNING_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>
-      The main corridor to the <![CDATA[<color=orange>engine room</color>]]> has been sealed to prevent further breach of containment.
-    </Text>
+    <Text>TRAIN_WARNING_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text>
-      Remember to wear adequate equipment when dealing with hazardous materials.
-    </Text>
+    <Text>TRAIN_WARNING_TEXT_4</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

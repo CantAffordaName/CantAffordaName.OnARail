@@ -1,47 +1,47 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: I hate being here. I hate being here. <![CDATA[<i>I hate being here</i>]]>!</Text>
+		<Text>WATER_SCARY_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
-      <ParentID>1</ParentID>
-    <Text>But... I don't really have a choice. I can't spare any time for apprehention. <![CDATA[<color=orange>Locomocean's</color>]]> the only place I can really do this.</Text>
+    <ParentID>1</ParentID>
+    <Text>WATER_SCARY_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>I wish <![CDATA[<color=orange>Spruce Caboose</color>]]> had a spacious spot, but I can't really refine <![CDATA[<color=lightblue>Ghost Matter</color>]]> while being so close to the train.</Text>
+    <Text>WATER_SCARY_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>2</ParentID>
-    <Text>I have scouted the waters and located the perfect spot to build a <![CDATA[<color=orange>refinery</color>]]>: a spacious cavern. The fish here don't seem to be interested in it. I can at least have some sanctity within.</Text>
+    <Text>WATER_SCARY_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text><![CDATA[<color=orange>Update</color>]]>: I have finished a cursory version of the <![CDATA[<color=orange>refinery</color>]]>. I do need to be quick, after all. I don't know how much time I have before they come looking for me.</Text>
+    <Text>WATER_SCARY_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>The water has been pumped out and I have installed an airlock that permits entry.</Text>
+    <Text>WATER_SCARY_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
-    <Text>I still need water to reduce the effects of <![CDATA[<color=lightblue>Ghost Matter</color>]]>, but I don't need it completely dissipating.</Text>
+    <Text>WATER_SCARY_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>6</ParentID>
-    <Text><![CDATA[<color=orange>Update #2</color>]]>: I went ahead and sealed off the cavern completely. Sand kept getting in through the airlock and it's less frustrating to just use some standard warp cores to get in and out.</Text>
+    <Text>WATER_SCARY_TEXT_8</Text>
   </TextBlock>
   <TextBlock>
     <ID>9</ID>
     <ParentID>8</ParentID>
-    <Text>Even if the, uh... "entrance" I now have to use is <![CDATA[<i>slightly</i>]]> unorthodox.</Text>
+    <Text>WATER_SCARY_TEXT_9</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

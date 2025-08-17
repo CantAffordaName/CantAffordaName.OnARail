@@ -16,6 +16,7 @@ namespace OnARail
         public Material porcelain, silver, black;
         private GameObject[] fishies = new GameObject[10];
         private GameObject warpScale;
+        private AudioSource whistleAudio;
 
         private void Awake()
         {
@@ -72,6 +73,7 @@ namespace OnARail
                 if (trainWhistle != null)
                 {
                     trainWhistle.AddComponent<WhistleController>();
+                    whistleAudio = SearchUtilities.Find("StellarExpress_Body/Sector/TrainBase/WhistleController/WhistleRoot/TrainWhistle").GetComponent<AudioSource>();
                 }
                 else { ModHelper.Console.WriteLine("Can't find WhistleController!", MessageType.Error); }
 
@@ -111,6 +113,13 @@ namespace OnARail
                     revealVolume.SetActive(false);
                 }
                 else { ModHelper.Console.WriteLine("Can't find RevealFinal!", MessageType.Error); }
+
+                GameObject coordPromptParent = SearchUtilities.Find("StellarExpress_Body/Sector/CoordPromptParent");
+                if (coordPromptParent != null)
+                {
+                    CoordPromptTrigger.CreateCoordPromptTrigger(coordPromptParent);
+                }
+                else { ModHelper.Console.WriteLine("Can't find CoordPromptParent!", MessageType.Error); }
 
                 porcelain = Resources.FindObjectsOfTypeAll<Material>().First(x => x.name.Contains("Structure_NOM_PorcelainClean_mat"));
                 silver = Resources.FindObjectsOfTypeAll<Material>().First(x => x.name.Contains("Structure_NOM_Silver_mat"));
@@ -164,9 +173,6 @@ namespace OnARail
                 GameObject water = SearchUtilities.Find("Locomocean_Body/Sector/Water");
                 if (water != null)
                 {
-                    //water.layer = LayerMask.NameToLayer("IgnoreSun");
-                    //ModHelper.Console.WriteLine("Set layer to IgnoreSun in Locomocean_Body/Sector/Water!", MessageType.Info);
-
                     Material[] waterMaterial = water.GetComponent<TessellatedSphereRenderer>().GetComponent<TessellatedRenderer>()._materials;
                     waterMaterial[1].color = new Color(1f, 1f, 1f, 1f);
                 }
@@ -244,6 +250,7 @@ namespace OnARail
                 else { ModHelper.Console.WriteLine("Can't find EndMusicParent!", MessageType.Error); }
 
                 GravityAssistTrigger.CreateGravityAssistTrigger(oceanPlanet, new Vector3(0f, -24.65f, 0f), 3f);
+                CheaterTrigger.CreateCheaterTrigger(oceanPlanet, new Vector3(0f, -24.65f, 0), 3f);
             }
             else
             {
@@ -264,6 +271,16 @@ namespace OnARail
                 {
                     sphereCollider.radius = 110f;
                 }
+
+                GameObject spruceWater = SearchUtilities.Find("SpruceCaboose_Body/Sector/Water");
+                if (spruceWater != null)
+                {
+                    spruceWater.layer = LayerMask.NameToLayer("IgnoreSun");
+
+                    Material[] waterMaterial = spruceWater.GetComponent<TessellatedSphereRenderer>().GetComponent<TessellatedRenderer>()._materials;
+                    waterMaterial[1].color = new Color(1.1f, 1.1f, 1.1f, 1f);
+                }
+                else { ModHelper.Console.WriteLine("Can't find SpruceCaboose_Body/Sector/Water!", MessageType.Error); }
 
                 WaterTrigger.CreateWaterTrigger(sprucePlanet, 29.6f);
                 AtmosphereTrigger.CreateAtmosphereTrigger(sprucePlanet, new Vector3(0f, 0f, 100f), new Vector3(0f, 90f, 0f));
@@ -292,6 +309,8 @@ namespace OnARail
                 EndMusicTrigger endMusicTrigger = SearchUtilities.Find("Locomocean_Body/Sector/EndMusicParent/EndMusicTrigger").GetComponent<EndMusicTrigger>();
                 CoordMusicTrigger coordMusicTrigger = SearchUtilities.Find("BeaconBlocker_Body/CoordMusicTrigger").GetComponent<CoordMusicTrigger>();
                 endMusicTrigger.coordMusicTrigger = coordMusicTrigger;
+                endMusicTrigger.whistleAudio = whistleAudio;
+                coordMusicTrigger.whistleAudio = whistleAudio;
             }
             else
             {
@@ -370,6 +389,13 @@ namespace OnARail
                 lineRenderer.positionCount = 128;
             }
             else { ModHelper.Console.WriteLine("Can't find Orbit!", MessageType.Error); }
+
+            CoordPromptTrigger coordPromptTrigger = SearchUtilities.Find("StellarExpress_Body/Sector/CoordPromptParent/CoordPromptTrigger").GetComponent<CoordPromptTrigger>();
+            if (coordPromptTrigger != null)
+            {
+                coordPromptTrigger.SetupPrompt();
+            }
+            else { ModHelper.Console.WriteLine("Can't find CoordPromptTrigger!", MessageType.Error); }
 
             //lightRadius of the sun gets overridden by base mod, set it back to 2500m after player gains control!
             //(This may or may not happen anymore, but too bad! Band-aid solution stays!)

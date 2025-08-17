@@ -94,7 +94,7 @@
       },
       {
         "radius": 5,
-        "reveals": [ "FROSTCAR_MINE_FACT", "FROSTCAR_MINE_WARP_FACT", "FROSTCAR_MINE_WARP_RUMOR" ],
+        "reveals": [ "FROSTCAR_MINE_FACT", "FROSTCAR_MINE_WARP_RUMOR" ],
         "revealOn": "enter",
         "revealFor": "player",
         "position": {
@@ -158,49 +158,6 @@
         "density": 5,
         "priority": 2,
         "radius": 26
-      }
-    ],
-    "notificationVolumes": [
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 15.5,
-        "parentPath": "Sector/FrozenInterior/GM_Root_Main/GM (1)",
-        "isRelativeToParent": true,
-        "target": "player"
-      },
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 20,
-        "parentPath": "Sector/FrozenInterior/GM_Root_Main/GM (2)",
-        "isRelativeToParent": true,
-        "target": "player"
-      },
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 17,
-        "parentPath": "Sector/FrozenInterior/GM_Root_Main/GM (3)",
-        "isRelativeToParent": true,
-        "target": "player"
-      },
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 20,
-        "parentPath": "Sector/FrozenInterior/GM_Root_Main/GM (4)",
-        "isRelativeToParent": true,
-        "position": {
-          "x": -10,
-          "y": 0,
-          "z": 7
-        },
-        "target": "player"
       }
     ],
     "hazardVolumes": [
@@ -496,6 +453,11 @@
         },
         "deactivationCondition": "WARPCORE_WHITE_INSERTED",
         "blinkWhenActiveChanged": false
+      },
+      {
+        "rename": "GM_NotificationVolume",
+        "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
+        "scale": 3.9
       },
       {
         "rename": "GhostMatterClutter (1)",

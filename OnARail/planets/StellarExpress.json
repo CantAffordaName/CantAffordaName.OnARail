@@ -50,7 +50,7 @@
             "b": 255,
             "a": 255
           },
-          "text": "Somewhere, somehow, a Nomai clan witnesses something once deemed impossible... If only there weren't a time loop."
+          "text": "CREDIT_VOLUME_TEXT"
         },
         "radius": 300
       }
@@ -82,20 +82,6 @@
           "y": 0,
           "z": -21.5
         }
-      }
-    ],
-    "notificationVolumes": [
-      {
-        "entryNotification": {
-          "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-        },
-        "radius": 8,
-        "position": {
-          "x": 0,
-          "y": -4.2,
-          "z": -43.5
-        },
-        "target": "player"
       }
     ],
     "hazardVolumes": [
@@ -149,7 +135,12 @@
         "type": "ghostMatter",
         "firstContactDamageType": "impact",
         "damagePerSecond": 0.0001,
-        "radius": 50
+        "radius": 300,
+        "position": {
+          "x": 0,
+          "y": -5,
+          "z": 20
+        }
       }
     ],
     "audioVolumes": [
@@ -185,7 +176,7 @@
         "track": "environment",
         "minDistance": 1,
         "maxDistance": 3000,
-        "volume": 1,
+        "volume": 0.25,
         "audio": "planets/assetbundle/TrainWhistle.ogg",
         "position": {
           "x": 0,
@@ -276,7 +267,18 @@
           "y": 0,
           "z": 0
         },
-        "scale": 0.975
+        "scale": 0.975,
+        "keepLoaded": true
+      },
+      {
+        "path": "",
+        "rename": "CoordPromptParent",
+        "position": {
+          "x": 0,
+          "y": -3.2,
+          "z": -4.375
+        },
+        "activationCondition": "WARPCORE_GM_INSERTED"
       },
       {
         "path": "",
@@ -422,6 +424,17 @@
       {
         "path": "",
         "rename": "Props"
+      },
+      {
+        "rename": "GM_NotificationVolume",
+        "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
+        "parentPath": "Sector/Props",
+        "scale": 0.5,
+        "position": {
+          "x": 0,
+          "y": -4.2,
+          "z": -43.5
+        }
       },
       {
         "rename": "GhostMatterClutter",

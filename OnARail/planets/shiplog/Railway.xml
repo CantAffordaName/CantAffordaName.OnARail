@@ -4,112 +4,104 @@
 
   <Entry>
     <ID>RAILWAY_ROOT</ID>
-    <Name>On A Rail</Name>
+    <Name>RAILWAY_ROOT_NAME</Name>
     <Curiosity>RAILWAY_CURIOSITY</Curiosity>
     <IsCuriosity/>
     <IgnoreMoreToExplore/>
 
     <RumorFact>
       <ID>RAILWAY_FINAL_RUMOR</ID>
-      <RumorName>On A Rail</RumorName>
+      <RumorName>RAILWAY_ROOT_NAME</RumorName>
       <SourceID>RAILWAY_ENGINEROOM</SourceID>
-      <Text>I used a <![CDATA[<color=orange>Ghost Matter Core</color>]]> in the train's <![CDATA[<color=orange>main engine room</color>]]> and entered the coordinates from the <![CDATA[<color=orange>coordinate relay</color>]]>.</Text>
+      <Text>RAILWAY_FINAL_RUMOR_TEXT</Text>
+      <AltText>
+        <Text>RAILWAY_FINAL_RUMOR_ALT_TEXT</Text>
+        <Condition>SPRUCECABOOSE_COORDS_FACT</Condition>
+      </AltText>
     </RumorFact>
     <ExploreFact>
       <ID>RAILWAY_FINAL_FACT</ID>
-      <Text>I was able to get the train's warp functionality up and running! ...At least, I would have if it weren't for the time loop.</Text>
+      <Text>RAILWAY_FINAL_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_FINAL_FACT_2</ID>
-      <Text><![CDATA[<color=yellow>I saw all there was to see</color>]]>!</Text>
+      <Text>RAILWAY_FINAL_FACT_2_TEXT</Text>
     </ExploreFact>
   </Entry>
   
   <Entry>
     <ID>RAILWAY_START</ID>
-    <Name>Stellar Express</Name>
+    <Name>RAILWAY_START_NAME</Name>
     <Curiosity>RAILWAY_CURIOSITY</Curiosity>
-
-    <RumorFact>
-      <ID>RAILWAY_START_RUMOR</ID>
-      <RumorName>Space Train</RumorName>
-      <Text>...Is that a train?</Text>
-    </RumorFact>
 
     <ExploreFact>
       <ID>RAILWAY_START_BASE</ID>
-      <Text>This train appears to be pulling an entire system behind it on rails!</Text>
+      <Text>RAILWAY_START_BASE_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_START_FACT</ID>
-      <Text>A Nomai named <![CDATA[<color=lightblue>Enji</color>]]> built this train.</Text>
+      <Text>RAILWAY_START_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_OBJECTIVE_1</ID>
-      <Text>It seems the train needs a power source from <![CDATA[<color=orange>Locomocean's refinery</color>]]> to enable warp functionality.</Text>
+      <Text>RAILWAY_OBJECTIVE_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_OBJECTIVE_2</ID>
-      <Text>Coordinates leading to <![CDATA[<color=lightblue>Enji's</color>]]> clan are availible somewhere on <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <Text>RAILWAY_OBJECTIVE_2_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_BLOCKED_ENTRANCE</ID>
-      <Text>The main corridor leading to the <![CDATA[<color=orange>engine room</color>]]> has been sealed shut due to <![CDATA[<color=lightblue>Ghost Matter</color>]]> leaking out.</Text>
+      <Text>RAILWAY_BLOCKED_ENTRANCE_TEXT</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>RAILWAY_ENGINEROOM</ID>
-    <Name>Engine Room</Name>
+    <Name>RAILWAY_ENGINEROOM_NAME</Name>
     <Curiosity>RAILWAY_CURIOSITY</Curiosity>
     <IsCuriosity/>
 
     <RumorFact>
       <ID>RAILWAY_ENGINEROOM_RUMOR</ID>
       <SourceID>RAILWAY_START</SourceID>
-      <RumorName>Engine Room</RumorName>
-      <Text>The main corridor leading to the <![CDATA[<color=orange>engine room</color>]]> has been sealed shut due to <![CDATA[<color=lightblue>Ghost Matter</color>]]> leaking out.</Text>
+      <RumorName>RAILWAY_ENGINEROOM_NAME</RumorName>
+      <Text>RAILWAY_ENGINEROOM_RUMOR_TEXT</Text>
       <AltText>
-        <Text>I managed to get around the sealed corridor by going through the train's whistle!</Text>
+        <Text>RAILWAY_ENGINEROOM_RUMOR_ALT_TEXT</Text>
         <Condition>RAILWAY_ENGINEROOM_START</Condition>
       </AltText>
     </RumorFact>
     <RumorFact>
       <ID>RAILWAY_ENGINEROOM_WHISTLE_RUMOR</ID>
       <SourceID>FROSTCAR_CORE_WHISTLEHINT</SourceID>
-      <RumorName>Engine Room</RumorName>
-      <Text>I gained entry to the <![CDATA[<color=orange>engine room</color>]]> through the train's whistle!</Text>
-    </RumorFact>
-    <RumorFact>
-      <ID>RAILWAY_ENGINEROOM_COORD_RUMOR</ID>
-      <SourceID>SPRUCECABOOSE_COORDS</SourceID>
-      <RumorName>Engine Room</RumorName>
-      <Text>A <![CDATA[<color=orange>Coordinate Interface</color>]]> will become accessible in the <![CDATA[<color=orange>engine room</color>]]> once the <![CDATA[<color=orange>core</color>]]> has been acquired.</Text>
+      <RumorName>RAILWAY_ENGINEROOM_NAME</RumorName>
+      <Text>RAILWAY_ENGINEROOM_START_TEXT</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_START</ID>
-      <Text>I gained entry to the <![CDATA[<color=orange>engine room</color>]]> through the train's whistle!</Text>
+      <Text>RAILWAY_ENGINEROOM_START_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_COORDHINT_1</ID>
-      <Text>A socket has been prepared for a new type of <![CDATA[<color=orange>Advanced Warp Core</color>]]> that <![CDATA[<color=lightblue>Enji</color>]]> was developing.</Text>
+      <Text>RAILWAY_ENGINEROOM_COORDHINT_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_COORDHINT_2</ID>
-      <Text>Once the <![CDATA[<color=orange>core</color>]]> has been placed in the socket, a <![CDATA[<color=orange>Coordinate Interface</color>]]> will become accessible here in the <![CDATA[<color=orange>engine room</color>]]>.</Text>
+      <Text>RAILWAY_ENGINEROOM_COORDHINT_2_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_ANGLERFISH_1</ID>
-      <Text>The warp pad that <![CDATA[<color=lightblue>Enji</color>]]> had been using to enter <![CDATA[<color=orange>Locomocean's refinery</color>]]> fell into the sea! It appears an <![CDATA[<color=orange>anglerfish</color>]]> ate the warp core it had.</Text>
+      <Text>RAILWAY_ENGINEROOM_ANGLERFISH_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_ANGLERFISH_2</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> tried to find the <![CDATA[<color=orange>anglerfish</color>]]> that ate the core with a remote drone and noticed that the <![CDATA[<color=orange>lure</color>]]> on one particular fish <![CDATA[<color=orange>had gone dark</color>]]> when the drone suddenly ended up inside the <![CDATA[<color=orange>refinery</color>]]>!</Text>
+      <Text>RAILWAY_ENGINEROOM_ANGLERFISH_2_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>RAILWAY_ENGINEROOM_ANGLERFISH_3</ID>
-      <Text>When <![CDATA[<color=lightblue>Enji</color>]]> went to that specific <![CDATA[<color=orange>anglerfish</color>]]>, the <![CDATA[<color=orange>darkened lure</color>]]> appeared normal to the naked eye and was only visible through the remote drone's <![CDATA[<color=orange>camera</color>]]>.</Text>
+      <Text>RAILWAY_ENGINEROOM_ANGLERFISH_3_TEXT</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

@@ -1,164 +1,168 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: ...</Text>
+		<Text>END_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
       <ParentID>1</ParentID>
-    <Text>My two weeks were almost up. In a rash attempt to get the new <![CDATA[<color=orange>Advanced Warp Core</color>]]> done as quickly as possible, I took minimal precautions.</Text>
+    <Text>END_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>I know I'm supposed to follow safety procedures. I know how to properly handle <![CDATA[<color=lightblue>Ghost Matter</color>]]>. I even learned how to become temporarily immune to it.</Text>
+    <Text>END_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text>...But what good does that information do for me when my arm's pinned down?</Text>
+    <Text>END_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text>An explosion occurred while trying to channel the power into the core. I'm unable to pull it out on my own. My clan will have to find me. I was never against the idea of cooperation. I just needed some time alone.</Text>
+    <Text>END_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>The <![CDATA[<color=orange>Signal Blocker</color>]]> should stop in a few days like I've prompted it to. Good thing I had the foresight to set that up for emergencies like this.</Text>
+    <Text>END_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
-    <Text>Just have to wait. I can last a little while. The pain will make it feel like eternity, though. Perhaps I can twiddle my non-pinned limbs to pass the time, or at the very least take my mind off it.</Text>
+    <Text>END_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>7</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>9</ID>
     <ParentID>8</ParentID>
-    <Text>It's been a couple of days. Arm still hurts. Still can't get it unstuck. But I'm being proactive regardless!</Text>
+    <Text>END_TEXT_9</Text>
   </TextBlock>
   <TextBlock>
     <ID>10</ID>
     <ParentID>9</ParentID>
-    <Text>I've used my <![CDATA[<color=orange>remote drone</color>]]> to retrieve equipment and supplies. It can't carry much since it's main use is for scouting, but I have nothing but time to spare.</Text>
+    <Text>END_TEXT_10</Text>
   </TextBlock>
   <TextBlock>
     <ID>11</ID>
     <ParentID>10</ParentID>
-    <Text>Surely the <![CDATA[<color=orange>Signal Blocker</color>]]> has stopped by now.</Text>
+    <Text>END_TEXT_11</Text>
   </TextBlock>
   <TextBlock>
     <ID>12</ID>
     <ParentID>11</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>13</ID>
     <ParentID>12</ParentID>
-    <Text>It <![CDATA[<i>has</i>]]> to have been at least a week now. They must've heard the signal by now, they must have!</Text>
+    <Text>END_TEXT_13</Text>
   </TextBlock>
   <TextBlock>
     <ID>14</ID>
     <ParentID>13</ParentID>
-    <Text>I can't gather any more supplies. My <![CDATA[<color=orange>remote drone</color>]]> got chewed on by an <![CDATA[<color=orange>anglerfish</color>]]>. If only I was able to catch one to chew on in revenge.</Text>
+    <Text>END_TEXT_14</Text>
   </TextBlock>
   <TextBlock>
     <ID>15</ID>
     <ParentID>14</ParentID>
-    <Text>Would it be disgusting? Most definitely. Wouldn't even be able to roast it. But it is starting to become more appealing by the second. And the constant groans they make are only making things worse.</Text>
+    <Text>END_TEXT_15</Text>
   </TextBlock>
   <TextBlock>
     <ID>16</ID>
     <ParentID>15</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>17</ID>
     <ParentID>16</ParentID>
-    <Text>I do not know how long it has been. I can't see the sun and I have no means with which to gauge the time.</Text>
+    <Text>END_TEXT_17</Text>
   </TextBlock>
   <TextBlock>
     <ID>18</ID>
     <ParentID>17</ParentID>
-    <Text>What I do know is this: <![CDATA[<color=orange>my clan isn't coming for me</color>]]>.</Text>
+    <Text>END_TEXT_18</Text>
   </TextBlock>
   <TextBlock>
     <ID>19</ID>
     <ParentID>18</ParentID>
-    <Text>The supplies I accrued are dwindling, even after rationing them. The salt water I've been using to keep the <![CDATA[<color=lightblue>Ghost Matter</color>]]> at bay with is beginning to run out. At this rate I'll have to start using my drinking water instead.</Text>
+    <Text>END_TEXT_19</Text>
   </TextBlock>
   <TextBlock>
     <ID>20</ID>
     <ParentID>19</ParentID>
-    <Text>...I'm not sure whether the <![CDATA[<color=lightblue>Ghost Matter</color>]]> will kill me first by dehydrating me or ironically by quenching my thirst.</Text>
+    <Text>END_TEXT_20</Text>
   </TextBlock>
   <TextBlock>
     <ID>21</ID>
     <ParentID>20</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>22</ID>
     <ParentID>21</ParentID>
-    <Text>I have begun considering removing my arm. I do not have proper medical equipment; I only have what I used to mine for resources on <![CDATA[<color=orange>Spruce Caboose</color>]]>. I can't exactly chisel myself out without injury.</Text>
+    <Text>END_TEXT_22</Text>
   </TextBlock>
   <TextBlock>
     <ID>23</ID>
     <ParentID>22</ParentID>
-    <Text>I cannot ascertain whether it'd be better to wither away in here or suffer complications from the amputation. Neither sound like promising options.</Text>
+    <Text>END_TEXT_23</Text>
   </TextBlock>
   <TextBlock>
     <ID>24</ID>
     <ParentID>23</ParentID>
-    <Text>...The decision has been made. I can't bring myself to do it.</Text>
+    <Text>END_TEXT_24</Text>
   </TextBlock>
   <TextBlock>
     <ID>25</ID>
     <ParentID>24</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>26</ID>
     <ParentID>25</ParentID>
-    <Text>I just wanted to be useful...</Text>
+    <Text>END_TEXT_26</Text>
   </TextBlock>
   <TextBlock>
     <ID>27</ID>
     <ParentID>26</ParentID>
-    <Text>I just wanted to make a significant contribution...</Text>
+    <Text>END_TEXT_27</Text>
   </TextBlock>
   <TextBlock>
     <ID>28</ID>
     <ParentID>27</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>29</ID>
     <ParentID>28</ParentID>
-    <Text>I just wanted to build a train...</Text>
+    <Text>END_TEXT_29</Text>
   </TextBlock>
   <TextBlock>
     <ID>30</ID>
     <ParentID>29</ParentID>
-    <Text>...Perhaps everyone knew along and I simply refused to see. Maybe trying to put a system on rails was an idea doomed from the start.</Text>
+    <Text>END_TEXT_30</Text>
   </TextBlock>
   <TextBlock>
     <ID>31</ID>
     <ParentID>30</ParentID>
-    <Text>...</Text>
+    <Text>SHARED_ELLIPSIS</Text>
   </TextBlock>
   <TextBlock>
     <ID>32</ID>
     <ParentID>31</ParentID>
-    <Text><![CDATA[<i>Hypothesis... confirmed.</i>]]></Text>
+    <Text>END_TEXT_32</Text>
   </TextBlock>
   <ShipLogConditions>
+    <RevealFact>
+      <FactID>LOCOMOCEAN_ENJI_FACT_1</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
     <RevealFact>
       <FactID>LOCOMOCEAN_ENJI_FACT_2</FactID>
       <Condition>3</Condition>

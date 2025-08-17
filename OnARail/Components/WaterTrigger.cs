@@ -1,5 +1,4 @@
 ﻿using NewHorizons.Utility;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +11,7 @@ namespace OnARail.Components
         public GameObject visorEffects;
         public float wetTimer = 60f;
 
-        void Awake()
+        private void Awake()
         {
             GameObject star = newHorizons.GetPlanet("The Stellar Express");
             if (star != null)
@@ -52,7 +51,7 @@ namespace OnARail.Components
             ghostMatterArray = ghostMatterList.ToArray();
         }
 
-        void Update()
+        private void Update()
         {
             var currentTime = TimeLoop.GetMinutesElapsed();
 

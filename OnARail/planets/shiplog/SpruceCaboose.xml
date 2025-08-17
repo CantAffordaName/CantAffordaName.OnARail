@@ -4,208 +4,217 @@
 
   <Entry>
     <ID>SPRUCECABOOSE_BASE</ID>
-    <Name>Spruce Caboose</Name>
+    <Name>SPRUCECABOOSE_BASE_NAME</Name>
     <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
 
     <ExploreFact>
       <ID>SPRUCECABOOSE_BASE_FACT</ID>
-      <Text>Lush and green. The gravity here is higher than what I'm used to.</Text>
+      <Text>SPRUCECABOOSE_BASE_FACT_TEXT</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>SPRUCECABOOSE_BASE_FROSTCAR_1</ID>
+      <Text>SPRUCECABOOSE_BASE_FROSTCAR_1_TEXT</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>SPRUCECABOOSE_BASE_FROSTCAR_2</ID>
+      <Text>SPRUCECABOOSE_BASE_FROSTCAR_2_TEXT</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>SPRUCECABOOSE_PLATFORM</ID>
-    <Name>Warp Platform</Name>
+    <Name>SPRUCECABOOSE_PLATFORM_NAME</Name>
     <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>SPRUCECABOOSE_PLATFORM_RUMOR</ID>
       <SourceID>SPRUCECABOOSE_BASE</SourceID>
-      <RumorName>Warp Platform</RumorName>
-      <Text>There's a flat space nestled amongst the hills a short distance from the <![CDATA[<color=orange>North Pole</color>]]> of <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <RumorName>SPRUCECABOOSE_PLATFORM_NAME</RumorName>
+      <Text>SPRUCECABOOSE_PLATFORM_RUMOR_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_FACT</ID>
-      <Text>A flat space nestled amongst the hills.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_ESCAPECLEANUP</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> crash-landed here, but cleaned up the crash site. They're covering their tracks.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_ESCAPECLEANUP_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_SCROLL</ID>
-      <Text>There's a scroll on top of one of the hills</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_SCROLL_TEXT</Text>
       <AltText>
-        <Text>A scroll with <![CDATA[<color=lightblue>Enji's</color>]]> idea for constructing a space train was found atop one of the hills.</Text>
+        <Text>SPRUCECABOOSE_PLATFORM_SCROLL_ALT_TEXT</Text>
         <Condition>SPRUCECABOOSE_ENJI_PROJECT_2</Condition>
       </AltText>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_CORES_1</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> suspected that the <![CDATA[<color=orange>derelict vessel</color>]]> at the center of all these systems might contain additional warp cores.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_CORES_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_CORES_2</ID>
-      <Text>A warp reciever linked to the <![CDATA[<color=orange>derelict vessel</color>]]> was moved from here to the train.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_CORES_2_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_LOSTCORE_1</ID>
-      <Text>While trying to set up warp pads between <![CDATA[<color=orange>Spruce Caboose</color>]]> and <![CDATA[<color=orange>Locomocean</color>]]>, <![CDATA[<color=lightblue>Enji</color>]]> ended up losing a <![CDATA[<color=orange>white hole</color>]]> warp core to the sea.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_LOSTCORE_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PLATFORM_LOSTCORE_2</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> used spare warp core instead. They theorized that the dropped core might have ended up <![CDATA[<color=orange>buried in the sand</color>]]> on the <![CDATA[<color=orange>South Pole</color>]]>.</Text>
+      <Text>SPRUCECABOOSE_PLATFORM_LOSTCORE_2_TEXT</Text>
     </ExploreFact>
     
     <Entry>
       <ID>SPRUCECABOOSE_PLATFORM_WARP</ID>
-      <Name>Warp Pad</Name>
+      <Name>SHARED_WARP_PAD_NAME</Name>
       <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
-      <IgnoreMoreToExplore/>
 
-      <ExploreFact>
-        <ID>SPRUCECABOOSE_PLATFORM_WARP_FACT</ID>
-        <Text>The warp pad here seems to be missing a <![CDATA[<color=orange>black hole</color>]]> warp core.</Text>
-      </ExploreFact>
+      <RumorFact>
+        <ID>SPRUCECABOOSE_PLATFORM_WARP_RUMOR</ID>
+        <SourceID>SPRUCECABOOSE_PLATFORM</SourceID>
+        <RumorName>SHARED_WARP_PAD_NAME</RumorName>
+        <Text>SPRUCECABOOSE_PLATFORM_WARP_RUMOR_TEXT</Text>
+      </RumorFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_PLATFORM_WARP_INSERTED</ID>
-        <Text>The warp core I found fit perfectly!</Text>
+        <Text>SHARED_WARP_INSERTED_TEXT</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>SPRUCECABOOSE_VESSEL_PLATFORM</ID>
-      <Name>Central Warp Pad</Name>
+      <Name>SPRUCECABOOSE_VESSEL_PLATFORM_NAME</Name>
       <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
       <IgnoreMoreToExplore/>
 
       <RumorFact>
         <ID>SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR</ID>
-        <SourceID>SPRUCECABOOSE_VESSEL_PLATFORM</SourceID>
-        <RumorName>Warp Cores</RumorName>
-        <Text><![CDATA[<color=lightblue>Enji</color>]]> suspected that the <![CDATA[<color=orange>derelict vessel</color>]]> at the center of all these systems might contain additional warp cores.</Text>
+        <SourceID>SPRUCECABOOSE_PLATFORM</SourceID>
+        <RumorName>SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_NAME</RumorName>
+        <Text>SPRUCECABOOSE_VESSEL_PLATFORM_RUMOR_TEXT</Text>
       </RumorFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_VESSEL_PLATFORM_FACT</ID>
-        <Text>I found a <![CDATA[<color=orange>black hole</color>]]> warp core on the <![CDATA[<color=orange>derelict vessel</color>]]>.</Text>
+        <Text>SPRUCECABOOSE_VESSEL_PLATFORM_FACT_TEXT</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>SPRUCECABOOSE_ENJI_PROJECT</ID>
-      <Name>Enji's Project</Name>
+      <Name>SPRUCECABOOSE_ENJI_PROJECT_NAME</Name>
       <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
       <IgnoreMoreToExplore/>
 
       <ExploreFact>
         <ID>SPRUCECABOOSE_ENJI_PROJECT_1</ID>
-        <Text><![CDATA[<color=lightblue>Enji</color>]]> proposed an idea for constructing a train capable of transporting not just its passengers, but entire groups of planets!</Text>
+        <Text>SPRUCECABOOSE_ENJI_PROJECT_1_TEXT</Text>
       </ExploreFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_ENJI_PROJECT_2</ID>
-        <Text>It appears the idea was met with some skepticism.</Text>
+        <Text>SPRUCECABOOSE_ENJI_PROJECT_2_TEXT</Text>
       </ExploreFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_ENJI_PROJECT_3</ID>
-        <Text><![CDATA[<color=lightblue>Enji</color>]]> decided to quietly leave their clan to attempt working alone. They needed planets that were small enough for their specifications and at least one of them needed to have <![CDATA[<color=lightblue>Ghost Matter</color>]]>.</Text>
+        <Text>SPRUCECABOOSE_ENJI_PROJECT_3_TEXT</Text>
       </ExploreFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_ENJI_PROJECT_4</ID>
-        <Text>A <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> was set up to prevent <![CDATA[<color=lightblue>Enji's</color>]]> clan from getting in the way while also allowing <![CDATA[<color=lightblue>Enji</color>]]> know how to get back to them after the train was completed.</Text>
+        <Text>SPRUCECABOOSE_ENJI_PROJECT_4_TEXT</Text>
       </ExploreFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_ENJI_PROJECT_5</ID>
-        <Text><![CDATA[<color=lightblue>Enji</color>]]> hoped that this would provide <![CDATA[<color=yellow>two weeks</color>]]> to complete the train.</Text>
+        <Text>SPRUCECABOOSE_ENJI_PROJECT_5_TEXT</Text>
       </ExploreFact>
     </Entry>
   </Entry>
 
   <Entry>
     <ID>SPRUCECABOOSE_PILLAR</ID>
-    <Name>Hollow Pillar</Name>
+    <Name>SPRUCECABOOSE_PILLAR_NAME</Name>
     <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
     
     <RumorFact>
       <ID>SPRUCECABOOSE_PILLAR_RUMOR</ID>
       <SourceID>SPRUCECABOOSE_BASE</SourceID>
-      <RumorName>Hollow Pillar</RumorName>
-      <Text>There's a hollowed out pillar on the equator of <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <RumorName>SPRUCECABOOSE_PILLAR_NAME</RumorName>
+      <Text>SPRUCECABOOSE_PILLAR_RUMOR_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PILLAR_START</ID>
-      <Text>A hollowed out pillar. It seems all entrances are covered with <![CDATA[<color=lightblue>Ghost Matter</color>]]>.</Text>
+      <Text>SPRUCECABOOSE_PILLAR_START_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PILLAR_OBSERVATION</ID>
-      <Text>I can see a deep pit of water within <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <Text>SPRUCECABOOSE_PILLAR_OBSERVATION_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PILLAR_IMMUNITY_1</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> discovered that if you're <![CDATA[<color=orange>drenched with water</color>]]>, you are temporarily immune to the effects <![CDATA[<color=lightblue>Ghost Matter</color>]]> for roughly <![CDATA[<color=orange>one minute</color>]]>.</Text>
+      <Text>SPRUCECABOOSE_PILLAR_IMMUNITY_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_PILLAR_IMMUNITY_2</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> also learned the hard way that <![CDATA[<color=orange>water quickly vaporizes</color>]]> in the vacuum of space.</Text>
+      <Text>SPRUCECABOOSE_PILLAR_IMMUNITY_2_TEXT</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>SPRUCECABOOSE_MOUNTAIN</ID>
-    <Name>Hollow Mountain</Name>
+    <Name>SPRUCECABOOSE_MOUNTAIN_NAME</Name>
     <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_RUMOR</ID>
       <SourceID>SPRUCECABOOSE_BASE</SourceID>
-      <RumorName>Hollow Mountain</RumorName>
-      <Text>There's a hollow mountain on the equator of <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <RumorName>SPRUCECABOOSE_MOUNTAIN_NAME</RumorName>
+      <Text>SPRUCECABOOSE_MOUNTAIN_RUMOR_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_START</ID>
-      <Text>A hollowed mountain. There's <![CDATA[<color=lightblue>Ghost Matter</color>]]> within.</Text>
+      <Text>SPRUCECABOOSE_MOUNTAIN_START_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_OBSERVATION</ID>
-      <Text>I can see a platform up high in the mountain.</Text>
+      <Text>SPRUCECABOOSE_MOUNTAIN_OBSERVATION_TEXT</Text>
       <AltText>
-        <Text>I was able to reach a platform that was up high in the mountain.</Text>
+        <Text>SPRUCECABOOSE_MOUNTAIN_OBSERVATION_ALT_TEXT</Text>
         <Condition>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT</Condition>
       </AltText>
     </ExploreFact>
     <Entry>
       <ID>SPRUCECABOOSE_MOUNTAIN_AUDIO</ID>
-      <Name>One-Way Beacon</Name>
+      <Name>SPRUCECABOOSE_MOUNTAIN_AUDIO_NAME</Name>
       <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
       <IgnoreMoreToExplore/>
 
       <RumorFact>
         <ID>SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR</ID>
         <SourceID>SPRUCECABOOSE_MOUNTAIN</SourceID>
-        <RumorName>Mysterious Sound</RumorName>
-        <Text>I can hear something coming from high up in the mountain.</Text>
+        <RumorName>SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR_NAME</RumorName>
+        <Text>SPRUCECABOOSE_MOUNTAIN_AUDIO_RUMOR_TEXT</Text>
       </RumorFact>
       <ExploreFact>
         <ID>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT</ID>
-        <Text>I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+        <Text>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_TEXT</Text>
         <AltText>
-          <Text>I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]> leading to a <![CDATA[<color=orange>Coordinate Relay</color>]]>.</Text>
+          <Text>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_ALT_TEXT</Text>
           <Condition>SPRUCECABOOSE_COORDS_FACT</Condition>
         </AltText>
       </ExploreFact>
     </Entry>
     <ExploreFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_TOP_1</ID>
-      <Text>I found a <![CDATA[<color=orange>One-Way Signal Blocker</color>]]>. It appears to have some issues with its function. An error message reads the following:</Text>
+      <Text>SPRUCECABOOSE_MOUNTAIN_TOP_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_TOP_2</ID>
-      <Text><![CDATA[<color=red>ERROR</color>]]>: Scheduled automatic cessation of <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> following user inputed time of <![CDATA[<color=yellow>three weeks</color>]]> has failed.</Text>
+      <Text>SPRUCECABOOSE_MOUNTAIN_TOP_2_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_MOUNTAIN_SCROLL</ID>
-      <Text>There's a scroll ontop of the platform.</Text>
+      <Text>SPRUCECABOOSE_MOUNTAIN_SCROLL_TEXT</Text>
       <AltText>
-        <Text>A scroll detailing <![CDATA[<color=lightblue>Enji's</color>]]> plan was found here.</Text>
+        <Text>SPRUCECABOOSE_MOUNTAIN_SCROLL_ALT_TEXT</Text>
         <Condition>SPRUCECABOOSE_ENJI_PROJECT_5</Condition>
       </AltText>
     </ExploreFact>
@@ -213,7 +222,7 @@
   
   <Entry>
     <ID>SPRUCECABOOSE_COORDS</ID>
-    <Name>Coordinates</Name>
+    <Name>SPRUCECABOOSE_COORDS_NAME</Name>
     <Curiosity>SPRUCECABOOSE_CURIOSITY</Curiosity>
     <IsCuriosity/>
     <IgnoreMoreToExplore/>
@@ -221,22 +230,22 @@
     <RumorFact>
       <ID>SPRUCECABOOSE_COORDS_RUMOR</ID>
       <SourceID>RAILWAY_START</SourceID>
-      <RumorName>Coordinates</RumorName>
-      <Text>Coordinates leading to <![CDATA[<color=lightblue>Enji's</color>]]> clan are availible somewhere on <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <RumorName>SPRUCECABOOSE_COORDS_NAME</RumorName>
+      <Text>RAILWAY_OBJECTIVE_2_TEXT</Text>
     </RumorFact>
     <RumorFact>
       <ID>SPRUCECABOOSE_COORDS_AUDIO</ID>
       <SourceID>SPRUCECABOOSE_MOUNTAIN_AUDIO</SourceID>
-      <RumorName>Signal</RumorName>
-      <Text>I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]>.</Text>
+      <RumorName>SPRUCECABOOSE_COORDS_AUDIO_NAME</RumorName>
+      <Text>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_TEXT</Text>
       <AltText>
-        <Text>I found a signal on <![CDATA[<color=orange>Spruce Caboose</color>]]> leading to a <![CDATA[<color=orange>Coordinate Relay</color>]]>.</Text>
+        <Text>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT_ALT_TEXT</Text>
         <Condition>SPRUCECABOOSE_COORDS_FACT</Condition>
       </AltText>
     </RumorFact>
     <ExploreFact>
       <ID>SPRUCECABOOSE_COORDS_FACT</ID>
-      <Text>I managed to find a set of <![CDATA[<color=orange>coordinates</color>]]>!</Text>
+      <Text>SPRUCECABOOSE_COORDS_FACT_TEXT</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

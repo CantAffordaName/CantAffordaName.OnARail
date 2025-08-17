@@ -1,48 +1,47 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: I finally have the opportunity to be on my own. I've been planning to do this for a while now, I just needed to wait for the right conditions.</Text>
+		<Text>ENJI_PLAN_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
     <ParentID>1</ParentID>
-    <Text>Ever since my younger days when no one appreciated my dreams of space trains being the next big thing for Nomai-kind, I've been planning to get away from my clan to build it all myself.</Text>
+    <Text>ENJI_PLAN_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>I knew it could be done. I simply needed planets that were small enough with at least one of them containing <![CDATA[<color=lightblue>Ghost Matter</color>]]> for use as an energy source.</Text>
+    <Text>ENJI_PLAN_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text>After identifying this particular system for meeting my specifications, I quietly hijacked one of the escape pods from my <![CDATA[<color=orange>vessel</color>]]> and managed to leave undetected.</Text>
+    <Text>ENJI_PLAN_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text>To prevent my clan from finding and stopping me before I finish construction, I've set up this <![CDATA[<color=orange>One-Way Signal Blocker</color>]]>. It will make it harder for them to track me down and it'll still let me get back to them once I finish the train's warp functionality.</Text>
+    <Text>ENJI_PLAN_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>But it won't stop them from looking for me. I've covered my tracks as best I could and cleared the crash site. Two uninterrupted weeks is all I ask.</Text>
+    <Text>ENJI_PLAN_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>2</ParentID>
-    <Text>Every time I ever brought up the fact that "<![CDATA[<i>I like trains</i>]]>" the others would groan like they'd heard it a thousand times before!<![CDATA[
-]]>(...I suppose they have. From me.)</Text>
+    <Text>ENJI_PLAN_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>3</ParentID>
-    <Text>...But no one wanted to assist me, or at the very least supervise me! They'd come up with excuses like "<![CDATA[<i>It'd be dangerous to experiment with Ghost Matter</i>]]>" or "<![CDATA[<i>What about preserving the planets for potential future species?</i>]]>" There's no way we've made so many technical advancements without incurring <![CDATA[<i>some</i>]]> amount of risk.</Text>
+    <Text>ENJI_PLAN_TEXT_8</Text>
   </TextBlock>
   <TextBlock>
     <ID>9</ID>
     <ParentID>6</ParentID>
-    <Text>Please let this buy me enough time.</Text>
+    <Text>ENJI_PLAN_TEXT_9</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

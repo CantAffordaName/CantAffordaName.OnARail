@@ -1,22 +1,22 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
-	<TextBlock>
-		<ID>1</ID>
-		<Text>Running System: <![CDATA[<color=orange>One-Way Signal Blocker</color>]]></Text>
-	</TextBlock>
+  <TextBlock>
+    <ID>1</ID>
+    <Text>BEACON_MESSAGE_TEXT_1</Text>
+  </TextBlock>
   <TextBlock>
     <ID>2</ID>
       <ParentID>1</ParentID>
-    <Text><![CDATA[<color=red>Notice</color>]]>: Your <![CDATA[<color=orange>Gnomai</color>]]> Distro is outdated. Certain functions may be unavailible, such as the remote access of coordinates.</Text>
+    <Text>BEACON_MESSAGE_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>Approximate transmission coordinates may still be retrieved on-site at the <![CDATA[<color=orange>Coordinate Relay</color>]]>.</Text>
+    <Text>BEACON_MESSAGE_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text><![CDATA[<color=red>ERROR</color>]]>: Scheduled automatic cessation of <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> following user inputed time of <![CDATA[<color=yellow>three weeks</color>]]> has failed. Please contact your system administrator.</Text>
+    <Text>BEACON_MESSAGE_TEXT_4</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

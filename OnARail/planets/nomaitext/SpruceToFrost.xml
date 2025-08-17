@@ -2,60 +2,66 @@
 	<TextBlock>
 		<ID>1</ID>
     <LocationB />
-		<Text>SPRUCE_TO_OCEAN_TEXT_1</Text>
+		<Text>SPRUCE_TO_FROST_TEXT_1</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
     <ParentID>1</ParentID>
     <LocationB />
-		<Text>SPRUCE_TO_OCEAN_TEXT_2</Text>
+		<Text>SPRUCE_TO_FROST_TEXT_2</Text>
 	</TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
     <LocationB />
-    <Text>SPRUCE_TO_OCEAN_TEXT_3</Text>
+    <Text>SPRUCE_TO_FROST_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
     <LocationB />
-    <Text>SPRUCE_TO_OCEAN_TEXT_4</Text>
+    <Text>SPRUCE_TO_FROST_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <LocationB />
-    <Text>SPRUCE_TO_OCEAN_TEXT_5</Text>
+    <LocationA />
+    <Text>SPRUCE_TO_FROST_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
     <LocationA />
-    <Text>SPRUCE_TO_OCEAN_TEXT_6</Text>
+    <Text>SPRUCE_TO_FROST_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
     <LocationA />
-    <Text>SPRUCE_TO_OCEAN_TEXT_7</Text>
+    <Text>SPRUCE_TO_FROST_TEXT_7</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>8</ID>
+    <ParentID>7</ParentID>
+    <LocationA />
+    <Text>SPRUCE_TO_FROST_TEXT_8</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>
-      <FactID>SPRUCECABOOSE_PLATFORM_LOSTCORE_1</FactID>
-      <Condition>2</Condition>
+      <FactID>SPRUCECABOOSE_BASE_FROSTCAR_1</FactID>
+      <Condition>6</Condition>
     </RevealFact>
     <RevealFact>
-      <FactID>SPRUCECABOOSE_PLATFORM_LOSTCORE_2</FactID>
-      <Condition>3</Condition>
+      <FactID>SPRUCECABOOSE_BASE_FROSTCAR_2</FactID>
+      <Condition>6</Condition>
     </RevealFact>
     <RevealFact>
-      <FactID>LOCOMOCEAN_BASE_WARPCORE_RUMOR</FactID>
-      <Condition>3</Condition>
+      <FactID>SPRUCECABOOSE_FROSTCAR_RUMOR_1</FactID>
+      <Condition>6</Condition>
     </RevealFact>
     <RevealFact>
-      <FactID>LOCOMOCEAN_WARPCORE_RUMOR</FactID>
-      <Condition>3</Condition>
+      <FactID>SPRUCECABOOSE_FROSTCAR_RUMOR_2</FactID>
+      <Condition>6</Condition>
     </RevealFact>
   </ShipLogConditions>
 </NomaiObject>

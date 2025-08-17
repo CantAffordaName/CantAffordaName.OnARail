@@ -99,8 +99,5 @@
       "revealedSprite": "planets/shiplog/sprites/railway_map_mode.png",
       "scale": 1
     }
-  },
-  "ReferenceFrame": {
-    "enabled": false
   }
 }

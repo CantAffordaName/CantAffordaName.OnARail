@@ -81,7 +81,8 @@
   "ReferenceFrame": {
     "enabled": true,
     "maxTargetDistance": 1250,
-    "targetWhenClose": true
+    "targetWhenClose": true,
+    "hideInMap": true
   },
   "MapMarker": {
     "enabled": false

@@ -60,7 +60,7 @@ namespace OnARail.Components
                     GameObject trainWhistle = SearchUtilities.Find("StellarExpress_Body/Sector/TrainBase/WhistleController");
                     endingGM.SetActive(true);
                     Destroy(trainWhistle);
-                    StartCoroutine(EndingCoroutine());
+                    StartCoroutine(EndingCoroutine(endingGM));
                 }
 
                 GameObject star = newHorizons.GetPlanet("The Stellar Express");
@@ -75,12 +75,13 @@ namespace OnARail.Components
             }
         }
 
-        private IEnumerator EndingCoroutine()
+        private IEnumerator EndingCoroutine(GameObject endingGM)
         {
-            yield return new WaitForSeconds(7.5f);
+            yield return new WaitForSeconds(7.8f);
             GameObject revealVolume = SearchUtilities.Find("StellarExpress_Body/Sector/RevealFinal");
             revealVolume.SetActive(true);
-            yield return new WaitForSeconds(0.5f);
+            endingGM.SetActive(false);
+            yield return new WaitForSeconds(0.2f);
             GameObject creditsVolume = SearchUtilities.Find("StellarExpress_Body/Sector/LoadCreditsVolume");
             creditsVolume.SetActive(true);
         }

@@ -1,47 +1,47 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=orange>Enji's Presentation: Systems on Rails</color>]]></Text>
+		<Text>CHILD_ENJI_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
     <ParentID>1</ParentID>
-    <Text>For a long time, Nomai Clans have been using <![CDATA[<color=orange>vessels</color>]]> to explore the universe.</Text>
+    <Text>CHILD_ENJI_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>Every ten years, festivals happen where everyone gathers to share knowledge to learn a whole bunch of different things!</Text>
+    <Text>CHILD_ENJI_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text>...But there hasn't been a lot of transportation innovation since we all use warp cores to move around.</Text>
+    <Text>CHILD_ENJI_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text>Our <![CDATA[<color=orange>vessel</color>]]> is nice and comfy, but I like it when I get to explore the planets we visit! I get bored of seeing the same white and silver colors and not the weird and wacky organic stuff!</Text>
+    <Text>CHILD_ENJI_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>So here's my idea: <![CDATA[<color=orange>make a space train</color>]]>! It has all the stuff the vessel has, but we get to have home planets in tow!</Text>
+    <Text>CHILD_ENJI_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
-    <Text>And we could pick up more planets, or swap them out, anything really! It would be efficient!</Text>
+    <Text>CHILD_ENJI_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>7</ParentID>
-    <Text>So... what do you guys think? Cool idea, right?</Text>
+    <Text>CHILD_ENJI_TEXT_8</Text>
   </TextBlock>
   <TextBlock>
     <ID>9</ID>
     <ParentID>8</ParentID>
-    <Text>...Guys?</Text>
+    <Text>CHILD_ENJI_TEXT_9</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

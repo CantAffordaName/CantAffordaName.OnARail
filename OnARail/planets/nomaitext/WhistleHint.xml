@@ -1,32 +1,32 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: I may have made it slightly convoluted for myself getting back to <![CDATA[<color=orange>Frost Car's Core</color>]]>, but at least I have a quick way to deal with <![CDATA[<color=lightblue>Ghost Matter</color>]]>.</Text>
+		<Text>WHISTLE_HINT_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
-      <ParentID>1</ParentID>
-    <Text>Speaking of which, now that the train is up and running, I've made a much needed change to put the minds of the others at ease when I ride it back to show it off.</Text>
+    <ParentID>1</ParentID>
+    <Text>WHISTLE_HINT_TEXT_2</Text>
   </TextBlock>
 <TextBlock>
     <ID>3</ID>
       <ParentID>2</ParentID>
-    <Text>Even after going through the refinement process at <![CDATA[<color=orange>Locomocean</color>]]>, the fuel made with <![CDATA[<color=lightblue>Ghost Matter</color>]]> still leaves trace amounts of the more hazardous bits lingering in the air.</Text>
+    <Text>WHISTLE_HINT_TEXT_3</Text>
   </TextBlock>
 <TextBlock>
     <ID>4</ID>
       <ParentID>3</ParentID>
-    <Text>Turns out the stuff even lasts in the vacuum of space! It's coming right out of the train's whistle.</Text>
+    <Text>WHISTLE_HINT_TEXT_4</Text>
   </TextBlock>
 <TextBlock>
     <ID>5</ID>
       <ParentID>4</ParentID>
-    <Text>To prevent the train from pumping <![CDATA[<color=lightblue>Ghost Matter</color>]]> fumes out everywhere, I've set the train to blow its whistle every <![CDATA[<color=orange>two minutes</color>]]>.</Text>
+    <Text>WHISTLE_HINT_TEXT_5</Text>
   </TextBlock>
 <TextBlock>
     <ID>6</ID>
       <ParentID>5</ParentID>
-    <Text>The whistle is already continously pumping out steam to counter the <![CDATA[<color=lightblue>Ghost Matter</color>]]> fumes, but keeping it contained by spending a little extra water every now and then to make it completely dissipate is worth it.</Text>
+    <Text>WHISTLE_HINT_TEXT_6</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

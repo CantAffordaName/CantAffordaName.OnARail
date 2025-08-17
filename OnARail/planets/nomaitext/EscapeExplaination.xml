@@ -1,37 +1,37 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: I've finally cleaned up the crash site. Of all the places in the universe to wind up, this is an idyllic spot.</Text>
+		<Text>ESCAPE_EXPLAINATION_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
     <ParentID>1</ParentID>
-    <Text>With that said, I'm surprised that Nomai tech was <![CDATA[<i>already</i>]]> here before I showed up. Well, maybe not. Our clans are everywhere.</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>I was worried that someone might show up and start asking questions, but it would seem that no one's around this particular star.</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
-    <Text>Upon further inspection, there seems to be a <![CDATA[<color=orange>derelict vessel</color>]]> in the distance... Did something happen to this particular clan?</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text>Surely we would have heard about something like that. It's not every day a clan chooses to abandon a <![CDATA[<color=orange>vessel</color>]]>.</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>...Well, perhaps <![CDATA[<i>I</i>]]> might relate to that last bit.</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
-    <Text>Anyways, I've covered my tracks to the best of my ability. For now I'll rest and in the morning my project begins.</Text>
+    <Text>ESCAPE_EXPLAINATION_TEXT_7</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

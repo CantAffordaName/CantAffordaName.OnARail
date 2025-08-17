@@ -4,95 +4,109 @@
 
   <Entry>
     <ID>FROSTCAR_BASE</ID>
-    <Name>Frost Car</Name>
+    <Name>FROSTCAR_BASE_NAME</Name>
     <Curiosity>FROSTCAR_CURIOSITY</Curiosity>
+    <IgnoreMoreToExplore/>
 
+    <RumorFact>
+      <ID>SPRUCECABOOSE_FROSTCAR_RUMOR_1</ID>
+      <SourceID>SPRUCECABOOSE_BASE</SourceID>
+      <RumorName>FROSTCAR_BASE_NAME</RumorName>
+      <Text>SPRUCECABOOSE_BASE_FROSTCAR_1_TEXT</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>SPRUCECABOOSE_FROSTCAR_RUMOR_2</ID>
+      <SourceID>SPRUCECABOOSE_BASE</SourceID>
+      <RumorName>FROSTCAR_BASE_NAME</RumorName>
+      <Text>SPRUCECABOOSE_BASE_FROSTCAR_2_TEXT</Text>
+    </RumorFact>
     <ExploreFact>
       <ID>FROSTCAR_BASE_FACT</ID>
-      <Text>A desolate planet of ice and snow.</Text>
+      <Text>FROSTCAR_BASE_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>FROSTCAR_BASE_GM</ID>
-      <Text>I found a series of ice tunnels beneath the planet's <![CDATA[<color=orange>sunward</color>]]> side. There's lots of <![CDATA[<color=lightblue>Ghost Matter</color>]]> within.</Text>
+      <Text>FROSTCAR_BASE_GM_TEXT</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>FROSTCAR_MINE</ID>
-    <Name>Ghost Matter Mine</Name>
+    <Name>FROSTCAR_MINE_NAME</Name>
     <Curiosity>FROSTCAR_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>FROSTCAR_MINE_RUMOR</ID>
-      <RumorName>Under The Ice</RumorName>
+      <RumorName>FROSTCAR_MINE_RUMOR_NAME</RumorName>
       <SourceID>FROSTCAR_BASE</SourceID>
-      <Text>I can see a structure beneath the surface on the dark side of <![CDATA[<color=orange>Frost Car</color>]]>, but I can't access it from here.</Text>
+      <Text>FROSTCAR_MINE_RUMOR_TEXT</Text>
       <AltText>
-        <Text>I found a structure beneath the surface on the dark side of <![CDATA[<color=orange>Frost Car</color>]]>. I reached it through ice tunnels on the planet's <![CDATA[<color=orange>sunward</color>]]> side.</Text>
+        <Text>FROSTCAR_MINE_RUMOR_ALT_TEXT</Text>
         <Condition>FROSTCAR_MINE_FACT</Condition>
       </AltText>
     </RumorFact>
     <ExploreFact>
       <ID>FROSTCAR_MINE_FACT</ID>
-      <Text>This area is littered with <![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals.</Text>
+      <Text>FROSTCAR_MINE_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>FROSTCAR_MINE_CRYSTALS</ID>
-      <Text><![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals were harvested from here and taken to <![CDATA[<color=orange>Locomocean</color>]]>. The smaller ones were used to make fuel and a larger one was going to be used to make a new and improved <![CDATA[<color=orange>Advanced Warp Core</color>]]>.</Text>
+      <Text>FROSTCAR_MINE_CRYSTALS_TEXT</Text>
     </ExploreFact>
     <Entry>
       <ID>FROSTCAR_MINE_WARP</ID>
-      <Name>Warp Pad</Name>
+      <Name>SHARED_WARP_PAD_NAME</Name>
       <Curiosity>FROSTCAR_CURIOSITY</Curiosity>
-      <IgnoreMoreToExplore/>
 
       <RumorFact>
         <ID>FROSTCAR_MINE_WARP_RUMOR</ID>
         <SourceID>FROSTCAR_MINE</SourceID>
-        <RumorName>Warp Pad</RumorName>
-        <Text>The warp pad here seems to be missing a <![CDATA[<color=orange>white hole</color>]]> warp core.</Text>
+        <RumorName>SHARED_WARP_PAD_NAME</RumorName>
+        <Text>FROSTCAR_MINE_WARP_RUMOR_TEXT</Text>
       </RumorFact>
       <ExploreFact>
-        <ID>FROSTCAR_MINE_WARP_FACT</ID>
-        <Text>The warp pad here seems to be missing a <![CDATA[<color=orange>white hole</color>]]> warp core.</Text>
-      </ExploreFact>
-      <ExploreFact>
         <ID>FROSTCAR_MINE_WARP_INSERTED</ID>
-        <Text>The warp core I found fit perfectly!</Text>
+        <Text>SHARED_WARP_INSERTED_TEXT</Text>
       </ExploreFact>
     </Entry>
     <ExploreFact>
       <ID>FROSTCAR_MINE_COREHINT_1</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> blocked off the core to avoid falling down, but noted that the <![CDATA[<color=orange>first turn</color>]]> at the entrance to the ice tunnels leads directly there.</Text>
+      <Text>FROSTCAR_MINE_COREHINT_1_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>FROSTCAR_MINE_COREHINT_2</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> also noticed that the tunnels blocked by <![CDATA[<color=lightblue>Ghost Matter</color>]]> seem to forge a more direct route to the core.</Text>
+      <Text>FROSTCAR_MINE_COREHINT_2_TEXT</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>FROSTCAR_CORE</ID>
-    <Name>Frost Car Core</Name>
+    <Name>FROSTCAR_CORE_NAME</Name>
     <Curiosity>FROSTCAR_CURIOSITY</Curiosity>
     <IsCuriosity/>
     <IgnoreMoreToExplore/>
 
     <RumorFact>
-      <ID>FROSTCAR_CORE_RUMOR</ID>
+      <ID>FROSTCAR_CORE_RUMOR_1</ID>
       <SourceID>FROSTCAR_MINE</SourceID>
-      <RumorName>Frost Car Core</RumorName>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> blocked off the core to avoid falling down, but noted that the <![CDATA[<color=orange>first turn</color>]]> at the entrance to the ice tunnels leads directly there.</Text>
+      <RumorName>FROSTCAR_CORE_NAME</RumorName>
+      <Text>FROSTCAR_MINE_COREHINT_1_TEXT</Text>
+    </RumorFact>
+    <RumorFact>
+      <ID>FROSTCAR_CORE_RUMOR_2</ID>
+      <SourceID>FROSTCAR_MINE</SourceID>
+      <RumorName>FROSTCAR_CORE_NAME</RumorName>
+      <Text>FROSTCAR_MINE_COREHINT_2_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>FROSTCAR_CORE_FACT</ID>
-      <Text>I managed to reach the core of <![CDATA[<color=orange>Frost Car</color>]]>!</Text>
+      <Text>FROSTCAR_CORE_FACT_TEXT</Text>
     </ExploreFact>
     <ExploreFact>
       <ID>FROSTCAR_CORE_SCROLL</ID>
-      <Text>There's a scroll here.</Text>
+      <Text>FROSTCAR_CORE_SCROLL_TEXT</Text>
       <AltText>
-        <Text>A scroll describing the train's whistle was found here.</Text>
+        <Text>FROSTCAR_CORE_SCROLL_ALT_TEXT</Text>
         <Condition>FROSTCAR_CORE_WHISTLEHINT_FACT</Condition>
       </AltText>
     </ExploreFact>
@@ -100,19 +114,19 @@
 
   <Entry>
     <ID>FROSTCAR_CORE_WHISTLEHINT</ID>
-    <Name>Train Whistle</Name>
+    <Name>FROSTCAR_CORE_WHISTLEHINT_NAME</Name>
     <Curiosity>FROSTCAR_CURIOSITY</Curiosity>
     <IgnoreMoreToExplore/>
 
     <RumorFact>
       <ID>FROSTCAR_CORE_WHISTLEHINT_RUMOR</ID>
       <SourceID>FROSTCAR_CORE</SourceID>
-      <RumorName>Train Whistle</RumorName>
-      <Text>I found a scroll within <![CDATA[<color=orange>Frost Car's</color>]]> core.</Text>
+      <RumorName>FROSTCAR_CORE_WHISTLEHINT_NAME</RumorName>
+      <Text>FROSTCAR_CORE_WHISTLEHINT_RUMOR_TEXT</Text>
     </RumorFact>
     <ExploreFact>
       <ID>FROSTCAR_CORE_WHISTLEHINT_FACT</ID>
-      <Text><![CDATA[<color=lightblue>Enji</color>]]> set up the train's <![CDATA[<color=orange>whistle</color>]]> to sound off every <![CDATA[<color=orange>two minutes</color>]]>. More steam is pumped through during this time to <![CDATA[<color=orange>dissipate excess</color>]]><![CDATA[<color=lightblue> Ghost Matter </color>]]><![CDATA[<color=orange>fumes</color>]]>.</Text>
+      <Text>FROSTCAR_CORE_WHISTLEHINT_FACT_TEXT</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

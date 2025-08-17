@@ -1,62 +1,62 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: The train is nearly complete! All I have left to finish is the warp functionality.</Text>
+		<Text>ANGLER_WARP_HINT_TEXT_1</Text>
 	</TextBlock>
   <TextBlock>
     <ID>2</ID>
       <ParentID>1</ParentID>
-    <Text>I have packed away the equipment I used to make the fuel at <![CDATA[<color=orange>Locomocean's refinery</color>]]> as I need the space for working on a new type of <![CDATA[<color=orange>Advanced Warp Core</color>]]>.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_2</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>This improved version will be using <![CDATA[<color=lightblue>Ghost Matter</color>]]> as opposed to singularities. Hypothetically, this new design will allow for <![CDATA[<i>significant</i>]]> jumps through space while also being able to keep the planets in tow! Not only that, the amount of time it takes to recharge after each jump is ten times faster than our current warp tech!</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>2</ParentID>
-    <Text>My two week deadline is fast approaching. The <![CDATA[<color=orange>One-Way Signal Blocker</color>]]> on <![CDATA[<color=orange>Spruce Caboose</color>]]> has bought me enough time to get everything done without interference from my clan! Time to get back to work.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
-    <Text><![CDATA[<color=orange>Update</color>]]>: I'm still on schedule for finishing the new <![CDATA[<color=orange>Advanced Warp Core</color>]]>, but there's just one... <![CDATA[<i>"catch"</i>]]>, to put it bluntly.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>The warp pad I had been using to get into <![CDATA[<color=orange>Locomocean's refinery</color>]]> fell into the water after the island it was built upon collapsed.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
-    <Text>Now unlike that warp core I lost and substituted, I actually need this one to get inside. I don't have time to dig my way back in and risk destroying my work!</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>7</ParentID>
-    <Text>So I got a little remote drone and went searching for the core when I noticed something strange about one of the <![CDATA[<color=orange>anglerfish</color>]]>: It's <![CDATA[<color=orange>lure</color>]]> was <![CDATA[<color=orange>completely dark</color>]]>.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_8</Text>
   </TextBlock>
   <TextBlock>
     <ID>9</ID>
     <ParentID>8</ParentID>
-    <Text>All of a sudden, the remote drone ended up inside the <![CDATA[<color=orange>refinery</color>]]>! The <![CDATA[<color=orange>anglerfish</color>]]> must have mistaken the warp core for food!</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_9</Text>
   </TextBlock>
   <TextBlock>
     <ID>10</ID>
     <ParentID>9</ParentID>
-    <Text>When I went to go retrieve the remote drone, I couldn't seem to find the right <![CDATA[<color=orange>anglerfish</color>]]>. On further inspection, it would seem that the darkened lure isn't visible (even to the third eye). I can only see it with the remote drone's <![CDATA[<color=orange>camera</color>]]>.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_10</Text>
   </TextBlock>
   <TextBlock>
     <ID>11</ID>
     <ParentID>9</ParentID>
-    <Text>...And somehow an <![CDATA[<color=orange>anglerfish</color>]]> is a perfect conduit for warp pads. I... don't know what to make of this information.</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_11</Text>
   </TextBlock>
   <TextBlock>
     <ID>12</ID>
     <ParentID>10</ParentID>
-    <Text>Despite that minor setback (and the fact that the entrance to <![CDATA[<color=orange>Locomocean's refinery</color>]]> is now absolutely disgusting), I should still have enough time to finish everything before my clan finds me!</Text>
+    <Text>ANGLER_WARP_HINT_TEXT_12</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>

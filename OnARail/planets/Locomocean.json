@@ -98,8 +98,21 @@
         "revealOn": "enter"
       },
       {
+        "rename": "Reveal_ScoutRumor",
+        "radius": 2,
+        "reveals": [ "LOCOMOCEAN_CORE_SCOUT" ],
+        "revealOn": "snapshot",
+        "maxDistance": 5,
+        "position": {
+          "x": 0,
+          "y": -24.65,
+          "z": 0
+        }
+      },
+      {
+        "rename": "Reveal_CheaterRumor",
         "radius": 3,
-        "reveals": [ "LOCOMOCEAN_CORE_FACT" ],
+        "reveals": [ "LOCOMOCEAN_CORE_CHEATER" ],
         "revealOn": "enter",
         "revealFor": "player",
         "position": {
@@ -109,8 +122,36 @@
         }
       },
       {
+        "rename": "Reveal_GMCoreRumor",
+        "radius": 7,
+        "reveals": [ "LOCOMOCEAN_CORE_WARPCORE_RUMOR" ],
+        "revealOn": "enter",
+        "revealFor": "player"
+      },
+      {
+        "rename": "Reveal_EnterFact",
         "radius": 3,
-        "reveals": [ "LOCOMOCEAN_ENJI_FACT_1" ],
+        "reveals": [ "LOCOMOCEAN_CORE_FACT" ],
+        "revealOn": "enter",
+        "revealFor": "player",
+        "position": {
+          "x": 0,
+          "y": -24.65,
+          "z": 0
+        },
+        "parentPath": "Sector/RevealParent"
+      },
+      {
+        "rename": "Reveal_GMCoreFact",
+        "radius": 7,
+        "reveals": [ "LOCOMOCEAN_CORE_WARPCORE" ],
+        "revealOn": "enter",
+        "revealFor": "player",
+        "parentPath": "Sector/RevealParent"
+      },
+      {
+        "radius": 3,
+        "reveals": [ "LOCOMOCEAN_ENJI_RUMOR" ],
         "revealOn": "observe",
         "maxDistance": 15,
         "position": {
@@ -121,7 +162,7 @@
       },
       {
         "radius": 3,
-        "reveals": [ "LOCOMOCEAN_ENJI_FACT_1" ],
+        "reveals": [ "LOCOMOCEAN_ENJI_RUMOR" ],
         "revealOn": "snapshot",
         "maxDistance": 15,
         "position": {
@@ -457,8 +498,7 @@
       },
       {
         "assetBundle": "planets/assetbundle/onarail",
-        "path": "Assets/OnARail/Prefabs/OceanBase.prefab",
-        "keepLoaded": true
+        "path": "Assets/OnARail/Prefabs/OceanBase.prefab"
       },
       {
         "assetBundle": "planets/assetbundle/onarail",
@@ -475,8 +515,7 @@
           },
           "colliderRadius": 0.5,
           "itemType": "WarpCoreGM",
-          "removalCondition": "WARPCORE_GM_REMOVED",
-          "removalFact": "LOCOMOCEAN_CORE_WARPCORE"
+          "removalCondition": "WARPCORE_GM_REMOVED"
         },
         "deactivationCondition": "WARPCORE_GM_REMOVED",
         "blinkWhenActiveChanged": false
@@ -509,6 +548,10 @@
           "unsocketAudio": "207",
           "pathToInitialSocket": "Sector/CoreSocket"
         }
+      },
+      {
+        "path": "",
+        "rename": "RevealParent"
       },
       {
         "path": "",
@@ -661,7 +704,7 @@
             "y": 0,
             "z": 0
           },
-          "pickupFact": "LOCOMOCEAN_BASE_WARPCORE"
+          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT"
         }
       }
     ],

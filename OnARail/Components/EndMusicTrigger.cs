@@ -1,11 +1,11 @@
-﻿using NewHorizons.Utility;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace OnARail.Components
 {
     internal class EndMusicTrigger : MonoBehaviour
     {
         public CoordMusicTrigger coordMusicTrigger;
+        public AudioSource whistleAudio;
 
         public virtual void OnTriggerExit(Collider hitCollider)
         {
@@ -17,12 +17,13 @@ namespace OnARail.Components
                     //Disable for Final Voyage, but re-enable the loop later to prevent game over!
                     TimeLoop.SetTimeLoopEnabled(false);
                     GlobalMessenger<OWRigidbody>.FireEvent("ExitTimeLoopCentral", Locator.GetPlayerBody());
+                    whistleAudio.volume = 0.5f;
                 }
-                /*else
+                else
                 {
-                    OnARail.DebugLog("Exiting: Fact needs to be learned first! Will play if coords are found this loop!", OWML.Common.MessageType.Success);
+                    //OnARail.DebugLog("Exiting: Fact needs to be learned first! Will play if coords are found this loop!", OWML.Common.MessageType.Success);
                     coordMusicTrigger.shouldPlay = true;
-                }*/
+                }
             }
         }
 

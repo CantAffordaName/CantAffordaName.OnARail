@@ -1,50 +1,50 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-        <LocationA />
-		<Text><![CDATA[<color=lightblue>Enji</color>]]>: I've gathered enough <![CDATA[<color=lightblue>Ghost Matter</color>]]> crystals here on <![CDATA[<color=orange>Frost Car</color>]]>. I've also managed to finally get my hands on one of the larger crystals from the <![CDATA[<color=orange>core</color>]]>.</Text>
+    <LocationA />
+		<Text>FROST_TO_OCEAN_TEXT_1</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-        <ParentID>1</ParentID>
-        <LocationA />
-		<Text>The smaller crystals are being refined on <![CDATA[<color=orange>Locomocean</color>]]> and will be used as the main source of power for the train. Honestly, everyone saying that <![CDATA[<color=lightblue>Ghost Matter</color>]]> can be an <![CDATA[<i>extremely volatile</i>]]> substance hasn't really seemed to consider the industrial applications of the stuff.</Text>
+    <ParentID>1</ParentID>
+    <LocationA />
+		<Text>FROST_TO_OCEAN_TEXT_2</Text>
 	</TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
     <LocationA />
-    <Text>The larger crystal is also being taken to <![CDATA[<color=orange>Locomocean</color>]]>, but it will instead be used for a new <![CDATA[<color=orange>Advanced Warp Core</color>]]> I have been designing to surpass our current warp technology.</Text>
+    <Text>FROST_TO_OCEAN_TEXT_3</Text>
   </TextBlock>
   <TextBlock>
     <ID>4</ID>
     <ParentID>3</ParentID>
     <LocationA />
-    <Text>I find it strange that we have been using the same old tech for thousands of years. It's as old as the tales of <![CDATA[<color=orange>Escall's Clan</color>]]>.</Text>
+    <Text>FROST_TO_OCEAN_TEXT_4</Text>
   </TextBlock>
   <TextBlock>
     <ID>5</ID>
     <ParentID>4</ParentID>
     <LocationA />
-    <Text>I wonder what <![CDATA[<color=orange>Annona</color>]]> would think of my design...</Text>
+    <Text>FROST_TO_OCEAN_TEXT_5</Text>
   </TextBlock>
   <TextBlock>
     <ID>6</ID>
     <ParentID>3</ParentID>
     <LocationA />
-    <Text>As I don't want to jeopardize my success by falling to my death, I've decided to block off entry to the core.</Text>
+    <Text>FROST_TO_OCEAN_TEXT_6</Text>
   </TextBlock>
   <TextBlock>
     <ID>7</ID>
     <ParentID>6</ParentID>
     <LocationA />
-    <Text>I won't be needing to go back down, but I will eventually need to come back here for the smaller crystals. Entropy and all that it entails, you know how it is.</Text>
+    <Text>FROST_TO_OCEAN_TEXT_7</Text>
   </TextBlock>
   <TextBlock>
     <ID>8</ID>
     <ParentID>7</ParentID>
     <LocationB />
-    <Text><![CDATA[<color=orange>Update</color>]]>: I had to go back... I needed an even bigger crystal. For future reference, <![CDATA[<color=orange>the first turn after entering</color>]]> the ice tunnels leads directly to the <![CDATA[<color=orange>core</color>]]>. Come to think of it, the tunnels blocked by <![CDATA[<color=lightblue>Ghost Matter</color>]]> seem to be the most direct route to it.</Text>
+    <Text>FROST_TO_OCEAN_TEXT_8</Text>
   </TextBlock>
   <ShipLogConditions>
     <RevealFact>
@@ -64,7 +64,11 @@
       <Condition>8</Condition>
     </RevealFact>
     <RevealFact>
-      <FactID>FROSTCAR_CORE_RUMOR</FactID>
+      <FactID>FROSTCAR_CORE_RUMOR_1</FactID>
+      <Condition>8</Condition>
+    </RevealFact>
+    <RevealFact>
+      <FactID>FROSTCAR_CORE_RUMOR_2</FactID>
       <Condition>8</Condition>
     </RevealFact>
   </ShipLogConditions>
