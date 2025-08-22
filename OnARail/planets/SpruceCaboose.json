@@ -100,10 +100,11 @@
         }
       },
       {
-        "radius": 10,
+        "radius": 9,
         "reveals": [ "SPRUCECABOOSE_PILLAR_OBSERVATION" ],
         "revealOn": "observe",
-        "maxDistance": 48,
+        "maxDistance": 5,
+        "maxAngle": 360,
         "position": {
           "x": 0,
           "y": 0,
@@ -111,10 +112,11 @@
         }
       },
       {
-        "radius": 10,
+        "radius": 9,
         "reveals": [ "SPRUCECABOOSE_PILLAR_OBSERVATION" ],
         "revealOn": "snapshot",
-        "maxDistance": 48,
+        "maxDistance": 5,
+        "maxAngle": 360,
         "position": {
           "x": 0,
           "y": 0,
@@ -155,7 +157,7 @@
       },
       {
         "radius": 5,
-        "reveals": [ "SPRUCECABOOSE_MOUNTAIN_SCROLL" ],
+        "reveals": [ "SPRUCECABOOSE_MOUNTAIN_SCROLL", "SPRUCECABOOSE_MOUNTAIN_OBSERVATION" ],
         "revealOn": "enter",
         "position": {
           "x": -58.5,
@@ -179,6 +181,8 @@
         {
           "alignmentRadius": 150,
           "force": 18,
+          "priority": 1,
+          "layer": 1,
           "radius": 150,
           "lowerRadius": 40,
           "upperRadius": 100,
@@ -186,46 +190,135 @@
           "fallOff": "inverseSquared",
           "rename": "CustomGravityVolume"
         }
+      ],
+      "directionalVolumes": [
+        {
+          "alignmentPriority": 2,
+          "radius": 10.5,
+          "force": 6,
+          "priority": 4,
+          "layer": 1,
+          "offsetCentripetalForce": true,
+          "parentPath": "Sector/SpruceTunnelAltBase",
+          "position": {
+            "x": 17.25,
+            "y": -2,
+            "z": 0
+          },
+          "normal": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        }
       ]
     },
     "zeroGravityVolumes": [
       {
         "radius": 20,
-        "priority": 2
+        "priority": 4,
+        "layer": 0
       }
     ],
     "hazardVolumes": [
       {
+        "rename": "1_1",
         "type": "ghostMatter",
-        "damagePerSecond": 200,
+        "damagePerSecond": 50,
         "radius": 4.5,
         "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (1)",
-        "isRelativeToParent": true
-      },
-      {
-        "type": "ghostMatter",
-        "damagePerSecond": 200,
-        "radius": 4,
-        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (2)",
-        "isRelativeToParent": true
-      },
-      {
-        "type": "ghostMatter",
-        "damagePerSecond": 200,
-        "radius": 6,
-        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (3)",
-        "isRelativeToParent": true
-      },
-      {
-        "type": "ghostMatter",
-        "damagePerSecond": 200,
-        "radius": 10.75,
-        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (4)",
         "isRelativeToParent": true,
         "position": {
-          "x": 3,
+          "x": 1.5,
           "y": 0,
-          "z": 0
+          "z": 0.5
+        }
+      },
+      {
+        "rename": "1_2",
+        "type": "ghostMatter",
+        "damagePerSecond": 500,
+        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (1)",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0.8,
+          "y": 0,
+          "z": -0.6
+        },
+        "shape": {
+          "type": "box",
+          "size": {
+            "x": 0.5,
+            "y": 5,
+            "z": 5
+          }
+        }
+      },
+      {
+        "rename": "2_1",
+        "type": "ghostMatter",
+        "damagePerSecond": 50,
+        "radius": 4,
+        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (2)",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -0.8,
+          "y": 0,
+          "z": 0.9
+        }
+      },
+      {
+        "rename": "2_2",
+        "type": "ghostMatter",
+        "damagePerSecond": 500,
+        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (2)",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0.3,
+          "y": 0,
+          "z": -0.5
+        },
+        "shape": {
+          "type": "box",
+          "size": {
+            "x": 0.5,
+            "y": 5,
+            "z": 5
+          }
+        }
+      },
+      {
+        "rename": "3_1",
+        "type": "ghostMatter",
+        "damagePerSecond": 50,
+        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (3)",
+        "isRelativeToParent": true,
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "shape": {
+          "type": "cylinder",
+          "radius": 11.3,
+          "height": 9
+        }
+      },
+      {
+        "rename": "3_2",
+        "type": "ghostMatter",
+        "damagePerSecond": 200,
+        "parentPath": "Sector/SpruceBase/GM_Root_Main/GM (3)",
+        "isRelativeToParent": true,
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "shape": {
+          "type": "cylinder",
+          "radius": 11.3,
+          "height": 1
         }
       },
       {
@@ -233,33 +326,68 @@
         "damagePerSecond": 0.000001,
         "radius": 4.5,
         "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (1)",
-        "isRelativeToParent": true
+        "isRelativeToParent": true,
+        "position": {
+          "x": 1.5,
+          "y": 0,
+          "z": 0.5
+        }
       },
       {
         "type": "ghostMatter",
         "damagePerSecond": 0.000001,
         "radius": 4,
         "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (2)",
-        "isRelativeToParent": true
-      },
-      {
-        "type": "ghostMatter",
-        "damagePerSecond": 0.000001,
-        "radius": 6,
-        "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (3)",
-        "isRelativeToParent": true
-      },
-      {
-        "type": "ghostMatter",
-        "damagePerSecond": 0.000001,
-        "radius": 10.75,
-        "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (4)",
         "isRelativeToParent": true,
         "position": {
-          "x": 3,
+          "x": -0.8,
           "y": 0,
-          "z": 0
+          "z": 0.9
         }
+      },
+      {
+        "type": "ghostMatter",
+        "damagePerSecond": 0.000001,
+        "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (3)",
+        "isRelativeToParent": true,
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "shape": {
+          "type": "cylinder",
+          "radius": 11.3,
+          "height": 9
+        }
+      },
+      {
+        "type": "electricity",
+        "parentPath": "Sector/SpruceTunnelAltBase",
+        "position": {
+          "x": 17,
+          "y": 0.6,
+          "z": 0
+        },
+        "shape": {
+          "type": "capsule",
+          "height": 2.5,
+          "radius": 0.6
+        },
+        "firstContactDamage": 10,
+        "firstContactDamageType": "electrical"
+      },
+      {
+        "type": "electricity",
+        "radius": 15,
+        "parentPath": "Sector/ElectricityParent",
+        "position": {
+          "x": 17,
+          "y": 1.6,
+          "z": 0
+        },
+        "firstContactDamage": 200,
+        "firstContactDamageType": "electrical"
       }
     ],
     "visorEffects": {
@@ -270,7 +398,12 @@
           "radius": 4.5,
           "layer": 1,
           "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (1)",
-          "isRelativeToParent": true
+          "isRelativeToParent": true,
+          "position": {
+            "x": 1.5,
+            "y": 0,
+            "z": 0.5
+          }
         },
         {
           "frostRate": 0.5,
@@ -278,27 +411,28 @@
           "radius": 4,
           "layer": 1,
           "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (2)",
-          "isRelativeToParent": true
-        },
-        {
-          "frostRate": 0.5,
-          "maxFrost": 0.2,
-          "radius": 6,
-          "layer": 1,
-          "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (3)",
-          "isRelativeToParent": true
-        },
-        {
-          "frostRate": 0.5,
-          "maxFrost": 0.2,
-          "radius": 10.75,
-          "layer": 1,
-          "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (4)",
           "isRelativeToParent": true,
           "position": {
-            "x": 3,
+            "x": -0.8,
             "y": 0,
-            "z": 0
+            "z": 0.9
+          }
+        },
+        {
+          "frostRate": 0.5,
+          "maxFrost": 0.2,
+          "layer": 1,
+          "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (3)",
+          "isRelativeToParent": true,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+          },
+          "shape": {
+            "type": "cylinder",
+            "radius": 11.3,
+            "height": 9
           }
         }
       ]
@@ -640,6 +774,18 @@
         "path": "Assets/OnARail/Prefabs/SpruceInterior.prefab"
       },
       {
+        "assetBundle": "planets/assetbundle/onarail",
+        "path": "Assets/OnARail/Prefabs/SpruceTunnelBase.prefab",
+        "deactivationCondition": "WARPCORE_GM_REMOVED",
+        "blinkWhenActiveChanged": false
+      },
+      {
+        "assetBundle": "planets/assetbundle/onarail",
+        "path": "Assets/OnARail/Prefabs/SpruceTunnelAltBase.prefab",
+        "activationCondition": "WARPCORE_GM_REMOVED",
+        "blinkWhenActiveChanged": false
+      },
+      {
         "rename": "Beacon",
         "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
         "position": {
@@ -734,18 +880,18 @@
         "rename": "GM_NotificationVolume (1)",
         "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
         "parentPath": "Sector/Props",
-        "scale": 1.35,
+        "scale": 1.5,
         "position": {
           "x": 0,
           "y": 0,
-          "z": -33
+          "z": -26
         }
       },
       {
         "rename": "GM_NotificationVolume (2)",
         "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
         "parentPath": "Sector/Props",
-        "scale": 1.5,
+        "scale": 2,
         "position": {
           "x": -30,
           "y": 0,
@@ -829,6 +975,23 @@
           "x": 30.2,
           "y": 0,
           "z": 0
+        },
+        "removeChildren": [ "Props_HEA_FuelTank" ]
+      },
+      {
+        "assetBundle": "planets/assetbundle/onarail",
+        "path": "Assets/OnARail/Prefabs/NomaiJetpackFuel.prefab",
+        "parentPath": "Sector/Prefab_HEA_FuelTank",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0.125,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 45
         }
       },
       {
@@ -1321,29 +1484,34 @@
         "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (3)",
         "isRelativeToParent": true,
         "alignRadial": true,
-        "stretch": {
-          "x": 1.5,
-          "y": 2,
-          "z": 1
-        },
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 3.4
-        }
-      },
-      {
-        "rename": "GhostMatterWisps",
-        "path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (1)",
-        "parentPath": "Sector/SpruceBase/GM_Root_EffectOnly/GM (4)",
-        "isRelativeToParent": true,
-        "alignRadial": true,
         "scale": 3,
         "position": {
           "x": 8,
           "y": 0,
           "z": 0
         }
+      },
+      {
+        "rename": "Geswaldo",
+        "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+        "parentPath": "Sector/SpruceTunnelAltBase",
+        "position": {
+          "x": 17,
+          "y": 1.6,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.08
+      },
+      {
+        "path": "",
+        "rename": "ElectricityParent",
+        "activationCondition": "GESWALDO_BEGONE",
+        "blinkWhenActiveChanged": false
       }
     ],
     "translatorText": [
@@ -1594,6 +1762,26 @@
         },
         "xmlFile": "planets/nomaitext/BeaconMessage.xml",
         "type": "preCrashComputer"
+      }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/SpruceTunnelAltBase",
+        "position": {
+          "x": 17,
+          "y": 0.4,
+          "z": 0
+        },
+        "xmlFile": "planets/dialogue/Geswaldo.xml",
+        "radius": 1.5,
+        "attentionPoint": {
+          "isRelativeToParent": true,
+          "position": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          }
+        }
       }
     ]
   },

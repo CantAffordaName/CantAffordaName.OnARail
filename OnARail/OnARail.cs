@@ -145,8 +145,22 @@ namespace OnARail
                 SphereCollider sphereCollider = SearchUtilities.Find("FrostCar_Body/Sector/Air").GetComponent<SphereCollider>();
                 if (sphereCollider != null)
                 {
-                    sphereCollider.radius = 60f;
+                    sphereCollider.radius = 59f;
                 }
+
+                GameObject frozenInterior = SearchUtilities.Find("FrostCar_Body/Sector/FrozenInterior");
+                if (frozenInterior != null)
+                {
+                    frozenInterior.GetComponent<SectorCullGroup>()._crossfadeLength = 0.01f;
+                    frozenInterior.GetComponent<SectorCollisionGroup>()._colliderTimeSlicing = false;
+                }
+
+                SectorCullGroup projectionPlatform = SearchUtilities.Find("FrostCar_Body/Sector/RemoteProjectionFrostCar").GetComponent<SectorCullGroup>();
+                projectionPlatform._crossfadeLength = 0f;
+
+                GameObject warpPlatform = SearchUtilities.Find("FrostCar_Body/Sector/WarpRoot");
+                warpPlatform.GetComponent<SectorCullGroup>()._crossfadeLength = 0f;
+                warpPlatform.transform.GetChild(0).gameObject.GetComponent<SectorCullGroup>()._crossfadeLength = 0f;
 
                 AtmosphereTrigger.CreateAtmosphereTrigger(frozenPlanet, new Vector3(-60f, 0f, 0f), new Vector3(0f, 0f, 0f));
             }
@@ -161,7 +175,7 @@ namespace OnARail
                 SphereShape sectorSphere = SearchUtilities.Find("Locomocean_Body/Sector").GetComponent<SphereShape>();
                 if (sectorSphere != null)
                 {
-                    sectorSphere.radius = 600f;
+                    sectorSphere.radius = 250f;
                 }
 
                 SphereCollider sphereCollider = SearchUtilities.Find("Locomocean_Body/Sector/Air").GetComponent<SphereCollider>();
@@ -249,6 +263,12 @@ namespace OnARail
                 }
                 else { ModHelper.Console.WriteLine("Can't find EndMusicParent!", MessageType.Error); }
 
+                SectorCullGroup oceanInterior = SearchUtilities.Find("Locomocean_Body/Sector/OceanInterior").GetComponent<SectorCullGroup>();
+                oceanInterior._crossfadeLength = 0f;
+
+                SectorCullGroup projectionPlatform = SearchUtilities.Find("Locomocean_Body/Sector/RemoteProjectionOcean1").GetComponent<SectorCullGroup>();
+                projectionPlatform._crossfadeLength = 0f;
+
                 GravityAssistTrigger.CreateGravityAssistTrigger(oceanPlanet, new Vector3(0f, -24.65f, 0f), 3f);
                 CheaterTrigger.CreateCheaterTrigger(oceanPlanet, new Vector3(0f, -24.65f, 0), 3f);
             }
@@ -263,7 +283,7 @@ namespace OnARail
                 SphereShape sectorSphere = SearchUtilities.Find("SpruceCaboose_Body/Sector").GetComponent<SphereShape>();
                 if (sectorSphere != null)
                 {
-                    sectorSphere.radius = 1000f;
+                    sectorSphere.radius = 3000f;
                 }
 
                 SphereCollider sphereCollider = SearchUtilities.Find("SpruceCaboose_Body/Sector/Air").GetComponent<SphereCollider>();
@@ -281,6 +301,10 @@ namespace OnARail
                     waterMaterial[1].color = new Color(1.1f, 1.1f, 1.1f, 1f);
                 }
                 else { ModHelper.Console.WriteLine("Can't find SpruceCaboose_Body/Sector/Water!", MessageType.Error); }
+
+                GameObject warpPlatform = SearchUtilities.Find("SpruceCaboose_Body/Sector/WarpRoot");
+                warpPlatform.GetComponent<SectorCullGroup>()._crossfadeLength = 0f;
+                warpPlatform.transform.GetChild(0).gameObject.GetComponent<SectorCullGroup>()._crossfadeLength = 0f;
 
                 WaterTrigger.CreateWaterTrigger(sprucePlanet, 29.6f);
                 AtmosphereTrigger.CreateAtmosphereTrigger(sprucePlanet, new Vector3(0f, 0f, 100f), new Vector3(0f, 90f, 0f));
@@ -344,35 +368,6 @@ namespace OnARail
             }
         }
 
-        public static void SolvedCoords()
-        {
-            //Instead of running here, do it inside CoordInterfaceController
-            /*var newHorizons = Instance.ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
-            Temporary: Set stuff up once train is done!
-            GameObject warpSwitch = SearchUtilities.Find("StellarExpress_Body/Sector/TrainInterface/WarpSwitch");
-            GameObject pillarRoot = SearchUtilities.Find("StellarExpress_Body/Sector/TrainInterface/PillarPivot/PillarRoot");
-            
-            warpSwitch.transform.SetParent(pillarRoot.transform);
-            warpSwitch.transform.localPosition = new Vector3(0, 0.4f, 0);
-
-            //Disable for Final Voyage, but re-enable the loop later to prevent game over!
-            TimeLoop.SetTimeLoopEnabled(false);
-            GlobalMessenger<OWRigidbody>.FireEvent("ExitTimeLoopCentral", Locator.GetPlayerBody());
-
-            GameObject endingGM = SearchUtilities.Find("StellarExpress_Body/Sector/EndingGM");
-            GameObject trainWhistle = SearchUtilities.Find("StellarExpress_Body/Sector/TrainBase/WhistleController");
-            endingGM.SetActive(true);
-            Destroy(trainWhistle);
-            StartCoroutine(EndingCoroutine());*/
-        }
-
-        /*private IEnumerator EndingCoroutine()
-        {
-            yield return new WaitForSeconds(8);
-            GameObject creditsVolume = SearchUtilities.Find("StellarExpress_Body/Sector/LoadCreditsVolume");
-            creditsVolume.SetActive(true);
-        }*/
-
         private void OnPutOnHelmet()
         {
             newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
@@ -393,7 +388,8 @@ namespace OnARail
             CoordPromptTrigger coordPromptTrigger = SearchUtilities.Find("StellarExpress_Body/Sector/CoordPromptParent/CoordPromptTrigger").GetComponent<CoordPromptTrigger>();
             if (coordPromptTrigger != null)
             {
-                coordPromptTrigger.SetupPrompt();
+                Sprite coordSprite = SearchUtilities.Find("BeaconBlocker_Body/Sector/ProbeRoot/CoordinateSprite").GetComponent<SpriteRenderer>().sprite;
+                coordPromptTrigger.SetupPrompt(coordSprite);
             }
             else { ModHelper.Console.WriteLine("Can't find CoordPromptTrigger!", MessageType.Error); }
 

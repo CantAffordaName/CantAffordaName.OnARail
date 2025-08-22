@@ -46,4 +46,7 @@
       <HintPath>C:\Users\cjwsh\AppData\Roaming\OuterWildsModManager\OWML\Mods\xen.NewHorizons\NewHorizons.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="planets\dialogue\" />
+  </ItemGroup>
 </Project>

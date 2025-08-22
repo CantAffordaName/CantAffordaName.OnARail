@@ -325,6 +325,14 @@
           "y": 0,
           "z": 0
         }
+      },
+      {
+        "id": "LOCOMOCEAN_WARPCORE",
+        "position": {
+          "x": -3,
+          "y": -35.25,
+          "z": 2
+        }
       }
     ],
     "remotes": [
@@ -502,6 +510,11 @@
       },
       {
         "assetBundle": "planets/assetbundle/onarail",
+        "path": "Assets/OnARail/Prefabs/OceanBeams.prefab",
+        "keepLoaded": true
+      },
+      {
+        "assetBundle": "planets/assetbundle/onarail",
         "path": "Assets/OnARail/Prefabs/OceanInterior.prefab"
       },
       {
@@ -672,10 +685,18 @@
         "alignRadial": true
       },
       {
+        "path": "",
+        "rename": "WhiteCoreParent",
+        "deactivationCondition": "WHITECORE_PICKUP",
+        "blinkWhenActiveChanged": false
+      },
+      {
+        "rename": "WhiteCore_1",
         "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (2)/Props_NOM_WarpCoreWhite (1)",
+        "parentPath": "Sector/WhiteCoreParent",
         "position": {
-          "x": -1,
-          "y": -31.5,
+          "x": -3,
+          "y": -31.25,
           "z": 2
         },
         "rotation": {
@@ -683,7 +704,7 @@
           "y": 0,
           "z": 90
         },
-        "scale": 10,
+        "scale": 9,
         "removeComponents": true,
         "item": {
           "name": "Warp Core",
@@ -704,7 +725,129 @@
             "y": 0,
             "z": 0
           },
-          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT"
+          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT",
+          "pickupCondition": "WHITECORE_PICKUP",
+          "clearPickupConditionOnDrop": false
+        }
+      },
+      {
+        "rename": "WhiteCore_2",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (2)/Props_NOM_WarpCoreWhite (1)",
+        "parentPath": "Sector/WhiteCoreParent",
+        "position": {
+          "x": 1,
+          "y": -31.25,
+          "z": -4
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": 9,
+        "removeComponents": true,
+        "item": {
+          "name": "Warp Core",
+          "itemType": "WarpCoreWhite",
+          "socketAudio": "206",
+          "holdOffset": {
+            "x": 0.161,
+            "y": 0,
+            "z": 0.123
+          },
+          "holdRotation": {
+            "x": 345.0511,
+            "y": 262.5902,
+            "z": 343.6968
+          },
+          "dropNormal": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT",
+          "pickupCondition": "WHITECORE_PICKUP",
+          "clearPickupConditionOnDrop": false
+        }
+      },
+      {
+        "rename": "WhiteCore_3",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (2)/Props_NOM_WarpCoreWhite (1)",
+        "parentPath": "Sector/WhiteCoreParent",
+        "position": {
+          "x": -7.5,
+          "y": -30.25,
+          "z": -4
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": 9,
+        "removeComponents": true,
+        "item": {
+          "name": "Warp Core",
+          "itemType": "WarpCoreWhite",
+          "socketAudio": "206",
+          "holdOffset": {
+            "x": 0.161,
+            "y": 0,
+            "z": 0.123
+          },
+          "holdRotation": {
+            "x": 345.0511,
+            "y": 262.5902,
+            "z": 343.6968
+          },
+          "dropNormal": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT",
+          "pickupCondition": "WHITECORE_PICKUP",
+          "clearPickupConditionOnDrop": false
+        }
+      },
+      {
+        "rename": "WhiteCore_4",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (2)/Props_NOM_WarpCoreWhite (1)",
+        "parentPath": "Sector/WhiteCoreParent",
+        "position": {
+          "x": -4,
+          "y": -29.75,
+          "z": -9
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": 9,
+        "removeComponents": true,
+        "item": {
+          "name": "Warp Core",
+          "itemType": "WarpCoreWhite",
+          "socketAudio": "206",
+          "holdOffset": {
+            "x": 0.161,
+            "y": 0,
+            "z": 0.123
+          },
+          "holdRotation": {
+            "x": 345.0511,
+            "y": 262.5902,
+            "z": 343.6968
+          },
+          "dropNormal": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "pickupFact": "LOCOMOCEAN_WARPCORE_FACT",
+          "pickupCondition": "WHITECORE_PICKUP",
+          "clearPickupConditionOnDrop": false
         }
       }
     ],

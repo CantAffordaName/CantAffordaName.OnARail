@@ -9,7 +9,7 @@ namespace OnARail.Components
         public GameObject coordScreenPrompt;
 
         //Have to wait until player gains control before ScreenPromptList is filled!
-        public void SetupPrompt()
+        public void SetupPrompt(Sprite coordSprite)
         {
             GameObject screenPromptList = SearchUtilities.Find("ScreenPromptCanvas/ScreenPromptListBottomLeft");
             GameObject originalPrompt = screenPromptList.transform.GetChild(1).gameObject;
@@ -17,6 +17,9 @@ namespace OnARail.Components
 
             Text text = coordScreenPrompt.transform.GetChild(0).gameObject.GetComponent<Text>();
             text.text = "Coordinates: ";
+
+            Image image = coordScreenPrompt.transform.GetChild(1).gameObject.GetComponent<Image>();
+            image.sprite = coordSprite;
         }
 
         public virtual void OnTriggerEnter(Collider hitCollider)

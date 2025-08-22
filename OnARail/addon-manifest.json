@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
-  //"preloadAssetBundles": [ "planets/assetbundle/onarail" ],
+  "preloadAssetBundles": [ "planets/assetbundle/onarail" ],
   "credits": [
-    "Created by Can't Afford a Name",
+    "By Can't Afford a Name",
     "#",
     "Translations",
     "Nan_Fyn#Simplified Chinese"

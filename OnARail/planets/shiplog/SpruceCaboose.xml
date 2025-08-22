@@ -178,7 +178,7 @@
       <Text>SPRUCECABOOSE_MOUNTAIN_OBSERVATION_TEXT</Text>
       <AltText>
         <Text>SPRUCECABOOSE_MOUNTAIN_OBSERVATION_ALT_TEXT</Text>
-        <Condition>SPRUCECABOOSE_MOUNTAIN_AUDIO_FACT</Condition>
+        <Condition>SPRUCECABOOSE_MOUNTAIN_SCROLL</Condition>
       </AltText>
     </ExploreFact>
     <Entry>
